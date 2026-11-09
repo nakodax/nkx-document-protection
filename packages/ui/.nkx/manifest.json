@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "kdf": {
+    "salt": "SqylkYoe55tOjv5zmFdL0Q==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "context": {
+    "build_id": "804be8c2-427f-4d32-bdc3-8d93c29b5882",
+    "runtime_sources": []
+  },
+  "slot_prefix": "packages/ui",
+  "files": {
+    "package.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "1vGs/MI4JYWAP5IgjF3YeCqxZaC+Ckc6l+tK8KEXfjs7uuf2DiWpF6plbqE3dnWgmURMpCIbNhzMJNfh",
+      "sha256": "f46e7e3153a18e4749327bf2004ede3bf86b5fa19fdf375cf38eb0de2f0c759a",
+      "enc_sha256": "4fe9693f91d4bdacfb16c8452a10915e726e7bb1569e5f896050465e41f41e31"
+    },
+    "src/index.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "58HV6g6NDseiBDurbxgNeQU5K7LIReV6LQ3R6W7Fw1WdfCrc2pAGdmORhCcBSJTgKMcMer6dKFYsi0WY",
+      "sha256": "72d4848617bc9f9676158442d191e742d72149c2b720e3f5ec2ff5f036ba7036",
+      "enc_sha256": "49637b58c70596a8528a356e186f703419016c4efe299dfbd9c87cb5c0109485",
+      "module": "src.index.ts",
+      "wrapped_mock_dek": "vnWJVvkv9Xld+6GY+FdGkQjuBxI2oClESKWYSiG2oJszskSD8VTu1yXKMKX5KhdFMPkselFX5Fjp4s3T",
+      "mock": "src/index.ts.mock.ts.nkxc"
+    }
+  },
+  "key_version": 1
+}

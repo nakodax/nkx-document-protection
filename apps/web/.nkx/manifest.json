@@ -1,0 +1,1284 @@
+{
+  "version": 3,
+  "kdf": {
+    "salt": "SqylkYoe55tOjv5zmFdL0Q==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "context": {
+    "build_id": "804be8c2-427f-4d32-bdc3-8d93c29b5882",
+    "runtime_sources": []
+  },
+  "slot_prefix": "apps/web",
+  "files": {
+    "app/(app)/analytics/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "0Z+4rQkZuVMuk0ArUKSB7pubE62qI1jSPr5PT3HCtfZHNUTjhYvT6R5vmkBzWKfn++zTMkX38mZm61iZ",
+      "sha256": "97af80fec21b2a70b6b08b2748c7254588a0c8ad2ba883551215feed9059f5bf",
+      "enc_sha256": "4d28ee586d800d3ea4edb2d6e4662e1962a33aee2dccb04f03bc414863a5ff31",
+      "module": "app.(app).analytics.page.tsx",
+      "wrapped_mock_dek": "vh/ZQEZiIGYBW/RStbcOs9XG86DNOfHNOZd5Vr/yDqfHTnmMfglc/QrHle6Ry58ryolKp+VQuPrLsv7b",
+      "mock": "app/(app)/analytics/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/billing/[id]/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "8676NDBkV1lxEHzxn10u/tzg7Nz66oD+ubd6vWaXXBv1jK2TTsHz7UU862BwNEkLzUpngCOJ3MQId4O+",
+      "sha256": "31de1c6f80d413b106d1d9207ad451e0ca6df56c4a94b77360cec02ae8ca7920",
+      "enc_sha256": "7362f47015b551a7eee7c400fe3c76a43ca35f211e85b8deaf559950ac4bb803",
+      "module": "app.(app).billing.[id].page.tsx",
+      "wrapped_mock_dek": "SQ9fAi2BAEdAfKGLab7NDxFk4KDfc/7DbzqOdnQJ0vym4Gk6JPBl4tGqCyLryr/OHZrBdswvm6JA9kdO",
+      "mock": "app/(app)/billing/[id]/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/billing/loading.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "QNTEnaJ2sODMRhOQzZ/sJPc01dvUgE1cKUB8xyZ8LXrnQAxxGnBQsvBj/7sci5TXGlZ1Vu6jljyPsOv6",
+      "sha256": "e74255a7540916ad376db6128305c2f83b82c98a233e66e0e3242c6f36536377",
+      "enc_sha256": "0482f46cfd84c5b3863cdecffe8554f06d5586c6640036ab85be749ab51f7184",
+      "module": "app.(app).billing.loading.tsx",
+      "wrapped_mock_dek": "vcBRzkv629oNJdXwydPmvVX3GBWN5HZz5oDpMXIwG2oOrvMwhSQk4xvK6B0VmEyi10HqJHvuxzQFVoO1",
+      "mock": "app/(app)/billing/loading.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/billing/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Iwq26DrJXReBx2Lza8R4R0m+BfQ7V5MSRUcDzIO1ruMIx3epN8eU9Mf++2CrC8w/swZ18dMafNaWQduo",
+      "sha256": "9a705906fd9222e1e36b4fcb29a60a37a5202a090c45ade8f5e2cd959a7ce9f6",
+      "enc_sha256": "0e110b0a4cfa94391e2b11a961678dd88c37872815eaf9b56287fb56fc111b57",
+      "module": "app.(app).billing.page.tsx",
+      "wrapped_mock_dek": "zeKchTqJXGu0gKc13XJOVtENdw8gMYdYjThgzssVhnLej8Jw6sMZmLkK2GD3vBskI/0TZpOwdmD1Z5aQ",
+      "mock": "app/(app)/billing/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/compliance/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "CmdogBFXmBhBUk5PUDlKmpQ4+cMXNjD41+wtw+icAN0WyhtF5SsniFSClvW1Mx8N+blMgnTzNw5ibJ7U",
+      "sha256": "6892dfb679130a194650aeb5f90863cbc5273f5f7bb97941bf01536803a46674",
+      "enc_sha256": "5d9591a58afbc62c2322d53e0d2435ffa3640bbdfd36a1ccd8601a3967829510",
+      "module": "app.(app).compliance.page.tsx",
+      "wrapped_mock_dek": "zOHDHsTJX75jUQrGQwTsWk8EnW20YK1Xv+2LlOQmsK3ZbvE5GDKXsRR6uRFJxbyzfo/4lXveaEc1haVZ",
+      "mock": "app/(app)/compliance/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/files/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "lMm39Vgw6Mvf3+pQEtQ9r2gP9+AUwnDAttBYxT1bh/oqYhrIwb4ELA0vQMnZWeLRQTQ3mrwqlo6gcvsI",
+      "sha256": "94c5893a5578e793e1db146a74ce9e9bea4a3e05127c07b75e14a34f1a7ae1d5",
+      "enc_sha256": "bd5664ddef4620303e5220b16e57eef6dcc37f40b2ad0b5bb026e60e3a7c0f84",
+      "module": "app.(app).files.page.tsx",
+      "wrapped_mock_dek": "ZLtvabCQA40t5PXtkstbmeAI8IeiFcYmcNkRq5z0dFivDDhxfHq7HoR+4hYGqVweWdYuVHl1bt9kRdkG",
+      "mock": "app/(app)/files/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/integrations/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "+GsVsKbjULLV9XOCjGtjGsh8Y4Kbq1Twf7LRqol5t7m5gfrnhxORBBMalHXuhKwicKOqboWf1zZInesD",
+      "sha256": "4c0c46efc90a79a531c43360c3b0538582e19dbe310d5e6a10a937ec980a3295",
+      "enc_sha256": "1ffe3786bf26a8476e66b36e23c40022a3219201d69778753e38c415ee1586b3",
+      "module": "app.(app).integrations.page.tsx",
+      "wrapped_mock_dek": "sjZbZJPEFJXiR21vz1IskASslDH7D4pU9ibh6gxSaIfNK+qjdTe2IyLn9igcgM9SUj4jeKYiMlv9HWHw",
+      "mock": "app/(app)/integrations/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/layout.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "yXUxpYp9z69FzIzgW9wal62fUR7anbxvmiBS+s3M0jiBKt/ox63OunXauh9JD0GPyN/pOiMbljKz3x24",
+      "sha256": "64042805c41175ea4af177a34adc8200b2ac56ca31dddb0723d5395d8e520e34",
+      "enc_sha256": "77579a836f75bc95f8ce9513e875aec51b8ebc76b9a093ca66bce9ac984f7073",
+      "module": "app.(app).layout.tsx",
+      "wrapped_mock_dek": "ENr+fUOrlrqOC7SocCSWZGyevREZCJ7i2YJLgjbRvPe73wc9LD5sdJmGetpltrPm/+4W6+0xgu4OCNiE",
+      "mock": "app/(app)/layout.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/onboarding/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "6Hu7LPuaH1IDD3jFxRwbrEUvPVD+nHxchSUT2xEaGk0VTE68QQ/C8zEO9fym9NmwFEMbTIoH6/Odb1Vt",
+      "sha256": "421cca85e67b8fd1fb9c42360d16ab7ea4c8f793d77ced635eff6a96d3461bfa",
+      "enc_sha256": "df05ed58d750a1a0601f4290da6e23c94ab2fc61c75f4c1944397d5cea513577",
+      "module": "app.(app).onboarding.page.tsx",
+      "wrapped_mock_dek": "PgcTdSkBu8bITXeIn+/0DYJUMglPJzcf2n4jXGygQl1atptkcr3N55z6hkyNjHEsBhXicVYjX7Pa0dwQ",
+      "mock": "app/(app)/onboarding/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/rooms/[id]/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "EUke94myHqBrDwNUuxPfCfVRG4eAoY1ut5ZQe+byJuIIKM6MraiCqxzk8mmwLiDKMZaT+RkXEojShxxH",
+      "sha256": "eb49725b56caa87ece4c838255c31d3745f3e86f01b32f48bc72e383d42db082",
+      "enc_sha256": "7c1908392bff068bd2c5bfc0bf7541d08ed7261aa96a1e7e3d2674580b63af5e",
+      "module": "app.(app).rooms.[id].page.tsx",
+      "wrapped_mock_dek": "a63OP3fxpKeO5l0v05JjAhMX2p2TrWIPdyGEnwMyAkE1AbIcgaZyBHVx/4VNzDrC3QArfa/vEgbxSvaK",
+      "mock": "app/(app)/rooms/[id]/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/rooms/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "ZUaS1KfCZNOU4tX9UgUQnaO1QpWJWgjg8V0oU1ssXa1/P1UEypZNyzgJi0A853va+1oAWqjxqtw2eWgS",
+      "sha256": "3adfb369954696a02a26906e10bcf03babc9b53d6969ba5625afb5a0ef90a03c",
+      "enc_sha256": "b53b2e4f05bba670d901c78cf767a60e867121f632a150861a256a75c4564bc7",
+      "module": "app.(app).rooms.page.tsx",
+      "wrapped_mock_dek": "iXMy+b5EVv8MZC5ymF2Z1882K52eTdd97ESMxxEztqt+3MKTSBSji8zAnw1pWySTfWT15eNEkLXWmr9H",
+      "mock": "app/(app)/rooms/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/settings/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Sv6VvShEIkzwJOdNwFYT42swnOGYVe1dipLXUbWNaCWoTfsEVZ8ytvI3WUdrPq/aLTKVQyW87TZV19Ik",
+      "sha256": "354c33c27a192b0ea1eb1eff301dfb4197644a4f68eb0f061ed4747878d8a798",
+      "enc_sha256": "efc0efb0c8014620306cc3d5be31f0b9af65dc4133800bc76aaf3789045e1d0a",
+      "module": "app.(app).settings.page.tsx",
+      "wrapped_mock_dek": "eL2QkDD7c/qrndfuHNyqNR98WFYuGdMV/APR0zh7wBGFp0JrXzXOrP6e/5Y0t1HUnOE9ofVGdta4+U8H",
+      "mock": "app/(app)/settings/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/shares/[id]/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "dYRP7+qRcIGLXfKpr4T+iOyLfqLn7mhcOzkw3PVzIbgjJeN3/L7GX/YDnB6nkKgA0/k91PpfzYJs0PP5",
+      "sha256": "e38f6e1e97f9339d2361290418906d3efe53c84952a69a0cd89aec1b77a3c78e",
+      "enc_sha256": "aee9cde35d884d3b8f4b77a3eae8810bf5227d30436da10b9b231e24a4e5160f",
+      "module": "app.(app).shares.[id].page.tsx",
+      "wrapped_mock_dek": "h3eLOBp0CA4GAbI4ZxXmqtP/AkadAYV3vMrwqWgNCVKaJPSTx6XPHjBs6coX4D+73E0mXvXSe+jXpEwG",
+      "mock": "app/(app)/shares/[id]/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/shares/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zz5J7jvS1Sd27YpqnDH0/a4A1kELxK8HuLJzlXCHlKYiRsHDP16lo+5x9rzIf3mRxVYbQj1ppasTPa08",
+      "sha256": "0d1507e64da8f872138cad0e796614eb103dc33b14dd695b20c917c60b5c8620",
+      "enc_sha256": "0c72df008af86b164e3a0a7d46753c0a261c234323e697319786cf4e49bef397",
+      "module": "app.(app).shares.page.tsx",
+      "wrapped_mock_dek": "PZ6h4gWLsDq1c8EqdhkMDFj6+fLMSpAVQh2uLRiZXFerGu/xhURVowIQimNgIXF76VTfwQVZeQzHBxTs",
+      "mock": "app/(app)/shares/page.tsx.mock.ts.nkxc"
+    },
+    "app/(app)/viewer/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "svydLUR1F3xmYii/mbGgmvHkbhRWfEUCz4cC//H95sM2TYBkDjrphWhABhxyDYdxgnS0HoiqVOg/5Ymc",
+      "sha256": "a4edb6e31d202bd1f1112013c3f3f235f40ab857389b4c8410e99ec5e7c585c0",
+      "enc_sha256": "2c03877280348a3a56d2c02dbb67c90b435bad3d9439bede174b868402183d37",
+      "module": "app.(app).viewer.page.tsx",
+      "wrapped_mock_dek": "wOY5PEQXaYxe1Upw/TAxA/Ue2rf/cVnQ621jiX1BW7zv+atRCMnWq1cHJ5OXr1IaiWsvIm7JqG6WJEBi",
+      "mock": "app/(app)/viewer/page.tsx.mock.ts.nkxc"
+    },
+    "app/(auth)/login/page.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "y/b8vmSKzMUOmyqQZ10+2ELcGqsaEVnxCyxZiT/bU8T4YTMYWZE4OW0yB3BnogCZLkT5G9xOiD9pDm3U",
+      "sha256": "bbaa976c842370e8af2565bac9ef6fdd82e46e38632912b0b8a59255852c389c",
+      "enc_sha256": "8e69bec1c611c264acd003ece748962f94dfa179c9afbf3157f09f1e0e47b1a7",
+      "module": "app.(auth).login.page.tsx",
+      "wrapped_mock_dek": "qxTlSC8yjDmq/E1LyGKnfUC1XmRfn98dzN6J68T4dxj97reYwDjOhjSsuB0JlXpuAXl0KN9MiF9jXXe9",
+      "mock": "app/(auth)/login/page.tsx.mock.ts.nkxc"
+    },
+    "app/globals.css": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "he5edUhmBeacgfWUBN2NaMhCWgVLotlpL6/Bc5E3vbDBq5qKbyguVjQgkKMjiG6cd6BxmNpR284vzsEU",
+      "sha256": "bb4c6d8af2099f26699cdda086b81fc5200517a011716e203bc09af05a8308d4",
+      "enc_sha256": "a2365dba63dcb505ac4bf33180e793c9b6c73c7912bf43a8ff6b625c7ec64a68"
+    },
+    "app/layout.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "2/Nbz8epHp3BQltfTlWIeXH3RjyAtA466p3+Gw3JWwJTVFx8pHwQol05eGtBDWhqMpD6H643gm4Ngjyk",
+      "sha256": "4093fde3a0782989f4c3ee9a2fc51f2e5b6aeb9d1cf18cbde915931a73dba247",
+      "enc_sha256": "8a9f8ce7a2226721238867d205b7bd69b2ce590e122d002bf7518c570dc404b8",
+      "module": "app.layout.tsx",
+      "wrapped_mock_dek": "WUSMQGGUoeq5BsTVx4IqqNQBZC3WV79GsRqt/2tmE8BV5VxZVe/3Sc1oC11DtS4AO+FmBwjH2s2plePt",
+      "mock": "app/layout.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/AnalyticsExportEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "rWI8JUW66XlXMnmOQtFifIt+jpczdGMss804iIJ7cSC1EsKXfhM5GrINRCqvjcLtbsGLRvMzXVH8IwZZ",
+      "sha256": "63108a3bb9fa49d0e704005a2e8269be43bc227ac9a5c42de1c1e8fbbc6c5862",
+      "enc_sha256": "e2c3b025130dc81dbe2da050e3d6fd7e85d8bb465676fd80f0f4e8ce441b31bc",
+      "module": "components.analytics.AnalyticsExportEmpty.tsx",
+      "wrapped_mock_dek": "Ys9ZorXYY0/6G5ig3xzi6Y2oHZ6duJroKofIQLPzpjaK2P0fT5qKpLz/28nP4gLkVThOhTzQfbStiLxJ",
+      "mock": "components/analytics/AnalyticsExportEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/DwellTimeFilters.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "z7uqDpznxPK6fA98DoxNRylQG6hbtUFLSUXMEmbYe+aJI1wDajrGY5FGAzXk+TA08kl//ZzHUob4Lucn",
+      "sha256": "96e38884e8d8e7b304298923e82f0c0810908759c1d1c14f7cb13052f6f4eb5d",
+      "enc_sha256": "09f4223c2e5cefb99d6a2170cb30c87e4817357d6db24ff21437735c259b0e04",
+      "module": "components.analytics.DwellTimeFilters.tsx",
+      "wrapped_mock_dek": "GCkCfu9XEwcjzK7OpkIHCvm3Nlwj21utRH3bCHG/oLow/zobHbslVRvoWWF2u4OoG7LgdbqHcL1wFkuT",
+      "mock": "components/analytics/DwellTimeFilters.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/EngagementScoreBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "UVGiF7MpS8GGZwXyY4+HMHo9Tiwy5TtexhVpaxKtjyQsQh8Mvkik6bIm5hPoWt4OZpEZUBwPkFwjTIik",
+      "sha256": "4ddb4d389c7de40740e38e4f067429f28f94b9517108bcf30c0fca474f8463c2",
+      "enc_sha256": "d4c7b98063454c8f39ca6bb7ca9961fa79446ad2a1ba1962aed2e45a558a1685",
+      "module": "components.analytics.EngagementScoreBadge.tsx",
+      "wrapped_mock_dek": "J4K/Ej79tl4/9UDdGV2Wh1JY9ehmrja9dBHVSeCi8CPpbs9qX3+bbp9CtkFsQhKn4VkTQK1j8kzopFjK",
+      "mock": "components/analytics/EngagementScoreBadge.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/OpenEventTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "je83TfYDku10KL62ab8nJKIGmxfzS+KVX9sG9D4YFDB9Q5VmxbncCwe+Dn8HcitK5yzjQlj4G5fsbWb/",
+      "sha256": "6bd44ce4cf1256e41126f03d21e22dc7545ed8ac8cc742de3a1db75a764db31d",
+      "enc_sha256": "e788025e196168954165926f0d8ec95352dc4785713cbf45a541c660fda85160",
+      "module": "components.analytics.OpenEventTable.tsx",
+      "wrapped_mock_dek": "mH1ABb61kFM5zYl8vhQKoMU03JXfIQ4TmSBROSjG60GHK7m2wC4nJo83MPn7MCRd3ty3Mn0ZaIs98/p6",
+      "mock": "components/analytics/OpenEventTable.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/PageHeatmapBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "EBxg2UK9qxJZ758yfMxSOyI8Z0iTP8wg+H4l2H9cfut00Hal8OjfLeArRXoHQtmlMDXDwDNJpK1HDmaS",
+      "sha256": "35e5ea5ad632f298f3fcd31b32e8365546e5d167ab4340137ed54faf3cb4511c",
+      "enc_sha256": "e3056fe64b673e2d7d68bf1aaca5aa737c18e5cf496ab62aab504cfe2ba381eb",
+      "module": "components.analytics.PageHeatmapBadge.tsx",
+      "wrapped_mock_dek": "odHV6R3EikHK04r+C+2O2V7RE9fu/xQpGrbxPYbXwPuWmpHoBzUVX40Pr8Qh3D1GkLVFilrieLmiw/bH",
+      "mock": "components/analytics/PageHeatmapBadge.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/PageHeatmapDrawer.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "8UcBe/52aqn01vci8IOzXOm6Cs+pd3uZeoH71vOsyV52Z1xdCaFMjNHlSt5q32uJbo6rx152A7SKrWnc",
+      "sha256": "5288a7aa66507dfc93498c4f5bca6d2cb3b96c122abcc52cc0190eefa806ad59",
+      "enc_sha256": "cc5fb9d1b7b57965d4cfe757e7ffc178b51662a4cd14e96b4fa84d085dbb28b9",
+      "module": "components.analytics.PageHeatmapDrawer.tsx",
+      "wrapped_mock_dek": "dN+gzt5907/UDTAiQ0f7re3qF6abaPk3vLYKLgtkNJa0uLoByeevs51Smgb2X0WihsA54Ww8oS5TOXBk",
+      "mock": "components/analytics/PageHeatmapDrawer.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/PageHeatmapEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "LS6OSIydM5UurGL6kLct/nj0i6UWyEFfk62SKjyeVhfJ8MBqGEEWkDOrZwhLlOgU9+Ov7xU4jx5m+cHH",
+      "sha256": "60127bab249b39d379e63607b50c3def78577ab4c0745a263b70d31fd324da6d",
+      "enc_sha256": "5c05470676488f1a250eff9fca5155632ec333367863c2c71f7abd866fa9c157",
+      "module": "components.analytics.PageHeatmapEmpty.tsx",
+      "wrapped_mock_dek": "saAQaOVTNY9KMqYwNkEvmjGawE2XgQDvRi9+NW5juSlqChuU5bHD6VAB9nSatXoeodla61oHifiO0ny2",
+      "mock": "components/analytics/PageHeatmapEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/PageHeatmapTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Dnm/oSoHnca6ofCNjh6FEDmLIixNTPq9V88UawMkmUiBBXcJ7/85ohiQOOthRxJeBcRIrADWYSPPNNu/",
+      "sha256": "9f572c9302c2957f7c4d5b97d076f67b44cc4c5fbda485286fc60678461947f0",
+      "enc_sha256": "10250f8edc16eb2b63e153b530eb4406037c22b12f919483413154c7f37c52f7",
+      "module": "components.analytics.PageHeatmapTable.tsx",
+      "wrapped_mock_dek": "K4fSHVKjR6fLnNePedIYH4nrFBzsCN7WBOBhZOAqHP8qeUvvxv6MHVarZ2zwzWlLvvGXlFZ8SSXswiff",
+      "mock": "components/analytics/PageHeatmapTable.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/ViewerGeoFilters.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "3Cp6UC0aaGsWZ3zAkuXjtXiDHYjQ424/dV+rW9XJN4YmVWuO0pjA16Byp5y8GTpwytCQ78adjKsJ2mD9",
+      "sha256": "1af97bf1afe70615f67d91b664f0a275e2facc0de0891bc1dbc2a2d5058e5ff2",
+      "enc_sha256": "f86edac060f326f0241eb8fce66346e1516f72ff7c1cd088e7b3882fcbe6ea8d",
+      "module": "components.analytics.ViewerGeoFilters.tsx",
+      "wrapped_mock_dek": "tcJJ/svjq64VzB8NaqnppLvFbk/ZKgJl97/bXVGRFdzyRDsQk03P5DAHvKD1hzm4hVBUM5ke6/UU+/0l",
+      "mock": "components/analytics/ViewerGeoFilters.tsx.mock.ts.nkxc"
+    },
+    "components/analytics/ViewerGeoList.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "2IIb2bQKKGZktR+LHKpzpb8pIPOqNm/HE/GX6WeRs+/USAMcqjSX3JUz5Iuo35f+3UfW5p7omb/VhcrQ",
+      "sha256": "2863edf9326fbe503b4c69408ffb86275a8095fe320c12efa6582e5259ca5110",
+      "enc_sha256": "dfb910324600cc430763a0583b12be064c755284d9e7892b8cb09cfe1bec5851",
+      "module": "components.analytics.ViewerGeoList.tsx",
+      "wrapped_mock_dek": "Dera33uj08pfrfTFbUWcg+ughIMPhbeahsWRTpMzjeTDoDK2sUHKMZx1D54DGuEXhDVtR83XhoV5NVJq",
+      "mock": "components/analytics/ViewerGeoList.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/AuditLogEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "N1jOhDNUV4fMtUQ40xJa0rQQHG8uMwcAZjk17Y4FaV8fx8VNl/yAOsAVesg1VXLQc3QCqVH5MEY490Rg",
+      "sha256": "a7c0eecb728ce4daec29d6e9b908e89583828f4aa00717ea7c6680f1740c91f2",
+      "enc_sha256": "2afa45a4b93fdc6e3ea803492b977ce839a3f4af63343882bbc4b72b0c1baf59",
+      "module": "components.compliance.AuditLogEmpty.tsx",
+      "wrapped_mock_dek": "CmjhG9sSQ1qDqagL73RMEua/vlmCP504pd2akvSO7CT/IVWkYWRn8ozUx5052lyiBDL/U+nj6DsG3vzh",
+      "mock": "components/compliance/AuditLogEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/AuditLogForm.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "eUTnSYKFy1kVExy7KVzbMfHnzGOVa8o6iPJnKUvUx1puymnrKRZD0b1Ehav5ATU9V0BeKbyQCrO19Fg5",
+      "sha256": "42f711b942fec58d79e0c8a147fabdedee30e2fde120f065c80414ac9b19bddd",
+      "enc_sha256": "81fa02d63a822bc199e2c71aebc38e35f31bae2146827f76b796960f40f69fc8",
+      "module": "components.compliance.AuditLogForm.tsx",
+      "wrapped_mock_dek": "5Mrov9rgnkVddYLPS+F4jNhTUQz4MQB7j3W8PFnB75sF1isJNo2vFf463bbK/bbKRS3c6A8efbmBUjN2",
+      "mock": "components/compliance/AuditLogForm.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/AuditLogList.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "EIVIIdUXqoZabiysNBxAM9Z53t9CoXK+9ERZ2E0H+x9A85SekHpKcgIDVUfa9P+UsCkPCiM98ZFoqJ6d",
+      "sha256": "69a74d333bb1ca9622e78850355785d9acd36d4a422eead278d2f0b5916cd52f",
+      "enc_sha256": "82c12e80dc9a2f9e6d05b5f311ba6204a99a05fdecfb6ebbaf671823733f72d7",
+      "module": "components.compliance.AuditLogList.tsx",
+      "wrapped_mock_dek": "rmOntjRgWZtts5KiRa9czJc4xhhKsUICR7o6asc9xKW7PbifdbwmX6avwJUmWtqYKiRj2AdMTTkcCJMJ",
+      "mock": "components/compliance/AuditLogList.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/AuditLogTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Sn4sbQHbCfFldCyTbjn4NPiIskAZWdJdRvBdMS5rGM/VhJ995fnjaKSrHFN0haJSRQJh1nCyIBGOmOz5",
+      "sha256": "80214dc28d8def9c32a53dd1ec6e23e3e583015fdc0da4609578608cb5091bc6",
+      "enc_sha256": "c223fbaac832d6a47e80aa4f4f3a1b8945120eb571d1f2390af8ba5fefe72282",
+      "module": "components.compliance.AuditLogTable.tsx",
+      "wrapped_mock_dek": "BW5bkFdk2bGyg1Q1P6/IcvCM3SA6+5Ca9j9GT+diAX+/aJDn5pGcz657S5mj7sFiLsaPp2vCqvPghDit",
+      "mock": "components/compliance/AuditLogTable.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/DpaRecordsDialog.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "6wd0wDQ8jj1xayrOC6EWwoUlrEfBRVSYPirQcwzMGZRe0hpgqc0niEGtkHxtnNWPkV0DeCxYAa4Qb/fD",
+      "sha256": "f0afe2bc30ff8eb3bce2b867190bf130eb0e54780fef0a3e3074ca3feca832fe",
+      "enc_sha256": "a90676a01a8956bb3c243f110d9ccb75764930e92636e8293e6a3fceab3b6139",
+      "module": "components.compliance.DpaRecordsDialog.tsx",
+      "wrapped_mock_dek": "E1Twu9jTVjwzZXg6pRpbC3wWZgR9345ugBzk4oS/XjeNKqopvCNfxx8WnQVsqnrfbfNEgZTmNht+B4dR",
+      "mock": "components/compliance/DpaRecordsDialog.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/DpaRecordsTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "UJBWtS+x0YNzBAisINbPwPYoDByTDQKWmv0ol7ZINwgtvBgwuwhpcqRU/nwNo23WyjaRyke970w/J9n5",
+      "sha256": "fe6ceb25e97375735879377d22898ec595f531731e4856b8c351f13a09d17a7e",
+      "enc_sha256": "95fa66556bfdff3b66b3d7bf517ea633fed17d78e3af910a3f410a299c4e0fe6",
+      "module": "components.compliance.DpaRecordsTable.tsx",
+      "wrapped_mock_dek": "M8fVGNI+hV+dIscY/iPmRz6tbpVKrjgY6YXln3GrQq9oH3Id06QjWqOsWcQHXExuIpJRco7tVepbVYVi",
+      "mock": "components/compliance/DpaRecordsTable.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/EdiscoveryExportList.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "NQ7YN59ZNr0qArY3l8tdltsALqTLl4sNU8pU/NXxEkC/hY+843ODyRhP1WJDt3N/w4KwSZlqgdFuNyiP",
+      "sha256": "3c32827d92e8c2a5e29291b71eaeecd36253cf95b90027d529b3609ec5aede04",
+      "enc_sha256": "9825d3435bafe716ed2dd0d17b6fb30340b2dfaeebd839f4c59e65dba6db896b",
+      "module": "components.compliance.EdiscoveryExportList.tsx",
+      "wrapped_mock_dek": "/+fXgawJJ9QsfGIMA36DdWs9GHphQa5hVEqsi+JaMJqBrj0d8uQtSny32tlevKbn48YOOXUO9t+EAXIg",
+      "mock": "components/compliance/EdiscoveryExportList.tsx.mock.ts.nkxc"
+    },
+    "components/compliance/RetentionPolicyHeader.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "EGsqrqzzMjxkjd0pB7fGXQ1CTCqmN4RLQkpQHmZYl0drVTPfxal2XFxxV3JFzo3pPJyL+Lmssrs204Na",
+      "sha256": "8410762b809209095a9d592ea35dfd56c3d57b5a1d4ba32664a292ba4863c3cd",
+      "enc_sha256": "f2dc04913377a8f64fe63c465094819c1b711ad067a41d1e91310b68e70f9a00",
+      "module": "components.compliance.RetentionPolicyHeader.tsx",
+      "wrapped_mock_dek": "otPMB9bF3xV+Ww04ylblzh5e94CTzS+2DSjPCdAo3omCAsak85x+tlmj2TBbM6D8cSvII4+iOMvlWN1y",
+      "mock": "components/compliance/RetentionPolicyHeader.tsx.mock.ts.nkxc"
+    },
+    "components/files/ChunkedUploadDrawer.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "M2dbde8Rn1cCHOnISVmmQup/WJue6MNvXoUAc3CpmRn3GCaHjw2dnwxeQ4FQTjyqGHGstWmylbm8myst",
+      "sha256": "501ee3ba28fa48c69f10fc703d5f28b0d077a922d866d1338696f9caf9f8b514",
+      "enc_sha256": "def5579c690666029c314e78355bc82d06f81431c597cb35aef65c97157f5838",
+      "module": "components.files.ChunkedUploadDrawer.tsx",
+      "wrapped_mock_dek": "cspakt8I/qjN33MoqMQbpWi1C/E113JezQoN6S+L70cPcmRo+TaEnvJ6/XLBOB7nWHqWaI4Sj4aYrfN0",
+      "mock": "components/files/ChunkedUploadDrawer.tsx.mock.ts.nkxc"
+    },
+    "components/files/FileVersionCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "S2q6V4kx7yXWfCPSmnPhLRtQg6onqaJKcmlVIrNBrWz0luCiafxv/vDRVIwpb1b0h4aXg1/16koku6H0",
+      "sha256": "b0dd3c47e3db3c299f4b9e8a97533c79a88b74d652bb4223e07044fc4f0f6e62",
+      "enc_sha256": "100b795c422e05c8ec77e334a4a5ee4eb56e6879982f61f0a633276062b0fdd3",
+      "module": "components.files.FileVersionCard.tsx",
+      "wrapped_mock_dek": "qQf41UoMs8rD0r5J5nVsFJIX8JFGwqKQpLGFqYUg1m5zeer3GJMozv87Lt6UBMW2bG21rVsgT79+m0ZM",
+      "mock": "components/files/FileVersionCard.tsx.mock.ts.nkxc"
+    },
+    "components/files/PageExtractTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "HL6SoK48uaFOaCYxiOMQsIMlFH+RaoB6rZSX16XGkCPd6VwQOj3UcO44G3UCIOQJ1itgN0Qy8M9jZaSA",
+      "sha256": "716a2c51d97f23065aa4f81942ebe4637115406e0a531030ff58b98de0a2a828",
+      "enc_sha256": "342b0ac526a2763fe77cbc51ea59002097acf712ae0abc290d93546fd3b2e2dc",
+      "module": "components.files.PageExtractTable.tsx",
+      "wrapped_mock_dek": "Awg1oswdR3v9GolopDLA/8SmsXq6um4tkmlbVsZ4K2rI+UgeXgz9gD2PfDDjYN1knWpaERuqFjSD/u2I",
+      "mock": "components/files/PageExtractTable.tsx.mock.ts.nkxc"
+    },
+    "components/files/PdfSplitBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "pBb7IG1EhYO3mNjKskdVqvdkrpykeDBJJQggCknxFqusdBeE+R1tGXmJqcADx0UrH7encKa7V78wckNF",
+      "sha256": "cc031a61268a558d00973ddf10b5d36512fcbc7634434ecb95f96b1805918ac5",
+      "enc_sha256": "365612ea63c8a97bc6b75619ffb623bb6dad895157c1b85f27f390b20d8ec779",
+      "module": "components.files.PdfSplitBadge.tsx",
+      "wrapped_mock_dek": "ZNZB41GVNnWSEly9TVezQF/boRsT/krGwQSWAV8+ApCmZF8K5q/zyd7rEuCAbJxTNNnh8QGYk+chUx8T",
+      "mock": "components/files/PdfSplitBadge.tsx.mock.ts.nkxc"
+    },
+    "components/files/PdfSplitDrawer.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Mx1IhC5oaYNta11QkHnPUcXctsvNt9iRSGIabzSHTirlCcimxpWHdiioC43/HSZws7Qm+j7zQf9k+WDq",
+      "sha256": "6afb4db998ed700be429b026c1a47a115636da6e440b8272e76d7ee46a39b018",
+      "enc_sha256": "cbd369097e30895aba2abd5ae155b019e38f49868c27189398882d8cddce4cf4",
+      "module": "components.files.PdfSplitDrawer.tsx",
+      "wrapped_mock_dek": "8WmsZVMfpAmejduicEc0mP5DgkRuErGIPV63bemDX+Jru4NnoXfhoS1Z/liEH2UeVTdXtzgqijq+VD1X",
+      "mock": "components/files/PdfSplitDrawer.tsx.mock.ts.nkxc"
+    },
+    "components/files/PreviewRenderEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zr7oWdpXdXUrnoLZlZuRNr/GFKNyFWgCPUDs9MenETg2VE5N2mb8BspjfLQRO4lCRi5jbcfzHLZFiYhB",
+      "sha256": "c0831aa23e87312c762e995272960ea7c201f2bdd8c8905491d6411c3394a2ca",
+      "enc_sha256": "37d693beaaebeb3e0eb2b778c4defd0cea9a03d5fd95d381fddfebf9028da3ae",
+      "module": "components.files.PreviewRenderEmpty.tsx",
+      "wrapped_mock_dek": "RRB4Kb4+JUkL/1Xhozw6iW9xqSJrOr6+jb5Y+7oAfHX9iqIWT6PFiiiFAUYvxgoT/gQzpsFORXxdb+DV",
+      "mock": "components/files/PreviewRenderEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/files/ThumbnailRenderCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "NoF+CKEg1CUBxCHH2oA3xbH33aLP9mKuEd+jikaEPlH4MOPZmjeEQnGPzmiYGZoWt91VerQFmghazFiO",
+      "sha256": "c12fc1681bf1f60dafdef3be961a2b33e560143a82293f0bca5f7a439f0a728e",
+      "enc_sha256": "1756b9b3aa43401dccc840084d04560b27b45564513094fef390ea43256616a3",
+      "module": "components.files.ThumbnailRenderCard.tsx",
+      "wrapped_mock_dek": "CAAe9OE/Y4fdqW/bTUs75t4+bTUZ07I08RsNI2j5a/AbKBbIvhIDJbRiD3EJTJhBP1fzJagJWOvvjTgD",
+      "mock": "components/files/ThumbnailRenderCard.tsx.mock.ts.nkxc"
+    },
+    "components/files/UploadSessionTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "eDvZucVNcoPHkl/CuvhK8d69hzdMXXARUWEJR+kgexq/8wUO8OMFPVW/HjUG9+w4Y49XkTn+w4H2vTHr",
+      "sha256": "0bbb53abb3eb0e38999bcbf6fbbb44335cef56c6fa2cb3f59ff3edc1c21eb2c1",
+      "enc_sha256": "efd6545f370d4af5b8951569e22b2af6d3f9894519d7f60fa0b5c6b7a991bf15",
+      "module": "components.files.UploadSessionTable.tsx",
+      "wrapped_mock_dek": "9vnpxbdn6RANJaOAgAJwDSUyamRGaUfLKHMrDAGyHYcbnYenDeXL13n6sEm1BqW5k9zE/Fy2t/Y28KLq",
+      "mock": "components/files/UploadSessionTable.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/BoxImportDrawer.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "tIQHm27oSijYvPubwpDFxKc9Q98u+9STI+BIBiR7fu8O5Dg3kcdUtKQiA3/9wft02wePdAQq21Rdfk1o",
+      "sha256": "0ebbb02ce92b1348aa8601a3d5dcc0ba715948893cd84d4d9d363c57c5dd9b3e",
+      "enc_sha256": "25cbe0dad80631edd7df561a4bc4ead6ce83cb00a8fd33980cb1e384deca5f3f",
+      "module": "components.integrations.BoxImportDrawer.tsx",
+      "wrapped_mock_dek": "j7U6/FL3GTWst4/mA81i2gkNzp6WINqMdqGToT6ipIhPO8D+YmwosJpEG/OVXcfBEucryS0nujbiU8DN",
+      "mock": "components/integrations/BoxImportDrawer.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/BoxImportTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "e+wtg58zF0mIHDyMUgFZlQQSWZAp5sS+rNK4427t2GsR04iix0EgjbmUkAsH5Jcg1iWaqJdFvz0eUXhW",
+      "sha256": "c9880bb953b84e1393cdd96a0f687137b0c2ab43810ce9c347d54ee0ecdbb833",
+      "enc_sha256": "ee1b27d1ae61c9ccfddf9a72a1203c77fa4ca5e4e95b006de14eda4a998bf61c",
+      "module": "components.integrations.BoxImportTable.tsx",
+      "wrapped_mock_dek": "GgyoOgeoHWdYFJ7UOuqdEe5nrvBKAkqXmjEHy+bnokV4YbjPXZ64L5ZgSXkbT9LZRovayzj6hsbxES1T",
+      "mock": "components/integrations/BoxImportTable.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/DriveWebhooksTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "6bfcvN7TGBQB4c5ljDMnUwSVjmhMnbt14IypCI6er+nHBKmsqg6ijxm1fcPQN7RdlK3W7EZj4yui8jsH",
+      "sha256": "f67709593fb8394812a59d8592cb70ab8796e6744462f3d5e847024eb3b7d484",
+      "enc_sha256": "d1a777b015c1154e58e6f3cf30801e43b17936e250c4f2012d6807902a50c1f9",
+      "module": "components.integrations.DriveWebhooksTable.tsx",
+      "wrapped_mock_dek": "8/h0eyHOpka0UlKbYD9C/tVu+8T2Vu2SY5M3KXSFCFljgkbUOaaaCzx3HpB0VAspGQPQ6g7jlWJHVCK5",
+      "mock": "components/integrations/DriveWebhooksTable.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GoogleDriveTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "07W5n8vjFcVd/QKMfcAKAZtneT3rsKeSZnzRJNwn4HE12FkhUDm7bvyIb2YmvGVbVOluHMj+ISVV0496",
+      "sha256": "29d8e91bc628996aef90faca1059563a5b32599bf528a4ee73774cb1bc96b9c9",
+      "enc_sha256": "d77d0ac316b8baa86ca8748b0cd716068dc31dfcf54a6b20f20aa87b90326cc9",
+      "module": "components.integrations.GoogleDriveTable.tsx",
+      "wrapped_mock_dek": "/WJJXzFrM3HZtY89Pe5FYUpEboX6bU920SoR171CM8/rtmgl8pO49PHkSNIxwGbKTwJSnjpzxCAZDZFa",
+      "mock": "components/integrations/GoogleDriveTable.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GooglePhotosBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "0gvTrPTkN3I5y/QIhEuHo+216ZpfD3/IFdMA6rNSldOAG6uDsNjMrdAv0IepFen6xzSvUmOD8foNB6hB",
+      "sha256": "1133b3b32a05537d7f45743a4f795f0a0515b75b60b74507f524c7a099e37ef6",
+      "enc_sha256": "bd8ca981c5db036c970e525853263b28ff6651673077ca9b4a27772a4890a306",
+      "module": "components.integrations.GooglePhotosBadge.tsx",
+      "wrapped_mock_dek": "iY+9TmzJJ81Yzn+KIB2JnKO7S/HdXdEIGcQJs1vKklz+Zq2ThbOlxjiT5a1q2tiacCDnPZ/PJpgK9naj",
+      "mock": "components/integrations/GooglePhotosBadge.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GooglePhotosEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "WzXFy4c0NBjtWLqOQBh5CBYrqQ6VGy3c7vaWYGzIsD7S5i1Y3LGjwHGX3vE7uNjpYIEHgi7fs/aGcn62",
+      "sha256": "d3a0274406168f12548dd95069babd5ffdfa87b2e3294bba1572223fc8897b2f",
+      "enc_sha256": "7317d5a5f67c1caa5c8a414a499f1173a46afaf30eb46133f54f15da802951f5",
+      "module": "components.integrations.GooglePhotosEmpty.tsx",
+      "wrapped_mock_dek": "wrYYVwiYbNv0UhJHvjD+tLsS8ubZcBcXAWlrQqkJDMn9T2wdgmFsKJzncD2BA3IC62hAMoxUwN6WAYjk",
+      "mock": "components/integrations/GooglePhotosEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GooglePhotosHeader.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "ZS46eVjjvuh1ftk4UEjx7XzbkXhIPSTo52tl6WcblmzqU+Oh+IhRaeaLVNQ5pD6+g3ZQSrSSMsF/1VUE",
+      "sha256": "4d7040a7209dbcc03c2ac1bc3f6ebe141ccf5a0aea27ce60535d7606cfa1b28f",
+      "enc_sha256": "9ee621178b6f36bfc3c90663bc4b38b053e60eaaccbc1b6fb33af4c87cf15720",
+      "module": "components.integrations.GooglePhotosHeader.tsx",
+      "wrapped_mock_dek": "s4HhtZQZ/TJ1aeW7JaWjsk/94XQaqbxWtD8Pu1yPh5ILrL0WnWIqRRCaV7sMYI1xNTdstRmR3YpcxRFS",
+      "mock": "components/integrations/GooglePhotosHeader.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GooglePhotosList.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "H7ZhPYEtU+gM0wQ2RbrSRBRf5MJuQWZ2TOHUL2FACA0HkHlbWB4y7t1/Z+6z3l5oCUAFtw72nQJnDt3W",
+      "sha256": "6fb70c6bece982cf8cecf5c6530000bbb9fe019854f87d18757af9856dba55ab",
+      "enc_sha256": "2331606d7975fe8c7ab45a192f8ed5b694e611d2ccf7dd889bd47479b37d12f2",
+      "module": "components.integrations.GooglePhotosList.tsx",
+      "wrapped_mock_dek": "DIyNdyjrE0q9wpmh+Vmfd8QPkH2EIR8WEF5RznFjcwRRwXadF/KFkw+24jaYf0STGJbOwH5Idech6Ezl",
+      "mock": "components/integrations/GooglePhotosList.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GraphClientHeader.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "eQ0ZjwFOQCYE4XN5Eu/C0z6KLSMGjBri1B1ng9vSrEN+Kr3nCN0dc6SB8eB1VlaUnUINCfyBEtzw4WAj",
+      "sha256": "2cb4cc15dd37198302b7771d418e2913820e0d6a3dcda0240b9989a3af854967",
+      "enc_sha256": "9773a5cb97172afd5ce86e68cd319f36ff272ea23ce90ed64bb613ad3266b8b0",
+      "module": "components.integrations.GraphClientHeader.tsx",
+      "wrapped_mock_dek": "ULwf/qAVZS2QWNx8AYhNCdTZB2wCmt9ANLTp2zWGTJHFnbuAW4ESm3PAa4BNT+Ap80KTqSFpBBmrfVYO",
+      "mock": "components/integrations/GraphClientHeader.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/GraphClientList.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "bnYo3NQfwu8ZRRAezb4cy+NMVs0E2KlKJyk/13RE6E8JYw7vEHaYfEhKDuB2kKvdmN0Q8/y1nvFYHTzj",
+      "sha256": "685fca03a0b3c79fa65b468e788ec28fd086da746d0692f7453211b3d078816a",
+      "enc_sha256": "3015534d28e040bc758f87328e0a17adb29f48dc289cde80013111c89b0ce6aa",
+      "module": "components.integrations.GraphClientList.tsx",
+      "wrapped_mock_dek": "8uhVTHYfAjOAmA9DKAphBduMQ7l+6SKAVf/H0dUQjuLN/Bx1fNZ/VPYdW/vfksNhWNlcKLYJoTzhcUOW",
+      "mock": "components/integrations/GraphClientList.tsx.mock.ts.nkxc"
+    },
+    "components/integrations/PickerTokenCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "uxo00wzDpcNnsmG95+Pn1GGfKlkdMxbE9QvQ/xID3n8oAuKkOyCA0m3uyiC8KWMmk21Sq7AZ41Lyqxwo",
+      "sha256": "a53eff7c7e421cd12fa284a8b6f5c79252e7f70dccab1aa11ded1e1c55fe2619",
+      "enc_sha256": "3395a35d3e448f7fc8622043d0caa09b3bcaaf6b8b8a4d0fdf4a7c68f7a8d9d5",
+      "module": "components.integrations.PickerTokenCard.tsx",
+      "wrapped_mock_dek": "dyvHBBWduJezXZQL0+fqFOUWelQwKj78S9O6PRw+k3aHcLH/YBhbaoB9b8Dj80W/vsWWHowYECq2eDd2",
+      "mock": "components/integrations/PickerTokenCard.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/DataRoomDialog.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "28En/cTVz7GUpm7sONsS159OW/+UPWjIblh80OKnYw0FYLFXonEl+XpDtDWLJLqw8RgWlG3YIJmXnbuJ",
+      "sha256": "a3ce5b86ce5f7fdd5eddc499ae8daddfc749ab256c0112c3df889a36f4a8fcbf",
+      "enc_sha256": "de8ac141899a6e8b43100d1daeaf36353715f43afedf9fe147f6932e37091c42",
+      "module": "components.rooms.DataRoomDialog.tsx",
+      "wrapped_mock_dek": "F6Yc7gn0d7TjaoAmIFyO1cHOTk14nqpxoL/gSWHKhnxmrD+HrD/7HsYG5tK2DYAJBbOoziOxMapZfvTT",
+      "mock": "components/rooms/DataRoomDialog.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomIndexBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "rIou8cMFQcLJ1I+6TB26PuRmm+A0yQ7py/XFMctGeLR0BNkUMAZvuAdyTPkazR4n0F5hFsA9ihLGqmi0",
+      "sha256": "336d8d8829dd69a5ab561a8344ca9f102c7e9ba652375c641b8f3cc28a7063a1",
+      "enc_sha256": "58b29849dca7c2dd534b162029832de6e82096e4feae3edf7189a970f7749302",
+      "module": "components.rooms.RoomIndexBadge.tsx",
+      "wrapped_mock_dek": "KOd1qhi8eztFNBqn1xz1WgFs/ua/1Zjf2KAj5lLzyVsc5HaaLDuUH60TslRNTDFzfM82pZ/iksepnjgR",
+      "mock": "components/rooms/RoomIndexBadge.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomIndexCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "8WDGpnVFFZxpK3W3LLukxR1bkjozv+zo3T2QJp58EZKNNB9T/QlgWpIvK5vlAY3rGtyBixWm46y2o34Y",
+      "sha256": "4505a1619a2bc976e38f5e51a0d1a2cdb50493e0696c141f1414550a337fcc7d",
+      "enc_sha256": "b4ff6e535ab29e87b07fad1aa7efc4df67250ed2c7825cb93ed6ba9afe30c58b",
+      "module": "components.rooms.RoomIndexCard.tsx",
+      "wrapped_mock_dek": "69C4SxdH7h/xLXM0qscihHoz60XA6uk19rE7+EJ8JMRDJsAGw/CKozG8mJNYW58ZWfPKQkBrFX1S5Osu",
+      "mock": "components/rooms/RoomIndexCard.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomIndexFilters.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "2Qq1UKG+4gTXT2Cf4TIMMPT3Lsto1Bz6TMBwkUDCk/MKqaabQfbwUxw0KZL1kvsXnoSHi7YNZiPIhaA5",
+      "sha256": "bfe6d792dd8e6cdf660dd234710ae136214ab16359cd30a27ff539164ace1bcf",
+      "enc_sha256": "0ad98b35c46bd19347a041c94dd05faad3988e43a2ee422768390606eaa9b945",
+      "module": "components.rooms.RoomIndexFilters.tsx",
+      "wrapped_mock_dek": "7ut7I8ZcZHGdc5t17QkvwXZIDyCCxKoG+iJ3XF7UKdB6oK8lsINV+8Nf2UB1Ru1vkhSfD2wIPOFsrDfl",
+      "mock": "components/rooms/RoomIndexFilters.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomIndexHeader.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "7IgxfpZzvr6u1SqwiLm7sRn+xzevK5VUWy8sb4wlLYv+HXP/T3U1QJP9qq4AnfXeJPF6iVEULP03/O+x",
+      "sha256": "32ab39f617337577b6f1a67859921ffa3a66bb50218830e7081660d154b783a8",
+      "enc_sha256": "022332a0a7ca4dd15ecb01aacf370b1f570e51970f28fe543b5216bcb45cce41",
+      "module": "components.rooms.RoomIndexHeader.tsx",
+      "wrapped_mock_dek": "HXz5Sl4Qs8GnmCpL4pyb9MhWkUpFRp/LUu4QAxkQ3TLTslxRNfWzBrg9LHGutfvfuhJabOV8KCu+IQLj",
+      "mock": "components/rooms/RoomIndexHeader.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomMemberEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "3T3STm5s69gvJaEvZRDEQ9jgWT1rUIvtFFvQmpH1kbMx5ATC0JygALqxJAj9vixRdwSQTYXu+N8n0I7S",
+      "sha256": "2be6a9177999bbd072092fcf3a48da7ed886dbf86d344c18dda7692c3bea4cd4",
+      "enc_sha256": "23d8605521ec602109ad8d4abd5c1ebca4d3494a986cb98cd3e57abf0a9075ec",
+      "module": "components.rooms.RoomMemberEmpty.tsx",
+      "wrapped_mock_dek": "HNRUI7FIE1EH3z/pTfQwoxpiVWD7+jA1mrbKbCXMoRgUYJfC6etW538XakCqLUCSvBVqzzwu0pP+ibZt",
+      "mock": "components/rooms/RoomMemberEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomMemberHeader.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "KwvbpEjVX9aTj3TxfmDJ24gYXiVWjm4UH0fzlpAbWqq//TDtbBm4V8ZwyrBwTG4rG+Vf5Inu33nJDfMI",
+      "sha256": "4afcc2a5c3ca10f29648aea1580fca1d952cc410c4c74b4b27d2dda1f2676db7",
+      "enc_sha256": "414c0fa78341712e6aeb6d78904540d60338aa73ade0d545140347334116276b",
+      "module": "components.rooms.RoomMemberHeader.tsx",
+      "wrapped_mock_dek": "yjr6RnVnUoLDrra8jcp58oX2vCChYRWSpt7TczIlN1wMkIr7L6nWFP7l0QZkX3kh8UK/dtXy8YoUE8Im",
+      "mock": "components/rooms/RoomMemberHeader.tsx.mock.ts.nkxc"
+    },
+    "components/rooms/RoomMemberTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "439rWXejv16dGu3g+JBByMDy1TyYszP8fwhGSnrC00HLJmHf7C4nkbVq3U5GPOgaBh/cVKY8/N/zZjeI",
+      "sha256": "ac3604e25ded62419ace2f206daff25bfd15dee026437dbf73fc294d20174840",
+      "enc_sha256": "40ef1302294e1945bfb3f41af4110dd811c82304b8f85bbf5ea36ca66c18740b",
+      "module": "components.rooms.RoomMemberTable.tsx",
+      "wrapped_mock_dek": "h5lZ44XVMX1DOtqBNUiFp3Pi20HSDRiKrmUcOkBp+2u+8ohEw0PA1FAfIO4+eJb5uaxls7LcBmI2VDU+",
+      "mock": "components/rooms/RoomMemberTable.tsx.mock.ts.nkxc"
+    },
+    "components/settings/SettingsBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "XhPQIAYXahIll9e2pD20+ff7cVCpxRwv7uVekscmsNBSfwZmGcCaaj37Fiwg7Nb3e487o+mUELYMgxKn",
+      "sha256": "22823c653b98d45225a5644eeff1b776ab5d727e7022816e086246de52d3871d",
+      "enc_sha256": "f7275940f852fb53de0baa41abfd042887976e874ed8af602747ba0846f4473f",
+      "module": "components.settings.SettingsBadge.tsx",
+      "wrapped_mock_dek": "XZXR6seGNtJo9VCdfyFBA7awEkCmaZRat3uRcyl477AS7qGPMUs8x68SqYFJxjE8d67EW7TDnitk13BG",
+      "mock": "components/settings/SettingsBadge.tsx.mock.ts.nkxc"
+    },
+    "components/shares/SharesTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "FV3oNqFEyQPCxou9OgPamTlt0+Gle2sgX5PIMRPQplqC40NtfTvBGIBiAwnEn2qzzHZiMyZIz1UHRV6k",
+      "sha256": "507529633b815837a7688c9055a1d1372215cf63005622a543773bcb2bb45c09",
+      "enc_sha256": "1e3fb76f1a773a8869b5a2bd75ed1a2ccf22278a82af77800340042010f0d43a",
+      "module": "components.shares.SharesTable.tsx",
+      "wrapped_mock_dek": "fyGG/VW21sq6CfSql3Vdeu4BJEylO90g6oqyp9yOFCp6PYMxbj0qzfh3KecW4wypxMLp4lCo2GHZ4COE",
+      "mock": "components/shares/SharesTable.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Avatar.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zo6aBd//MQ00W3JTfIS/2J2jLghsx9+UswqUYxjfb29RGxO6xjO4/YJwn+mEKJeYywJ0M6Fgemg65IvI",
+      "sha256": "6ccd6939fffc969a99eeef8a0ad1a5a4e71064df7c9ad5b863db77929dc46772",
+      "enc_sha256": "c4aa15490fb1a14b7a9cc442f25afa30a8a36cbea7fd8cb8b130946270341167",
+      "module": "components.ui.Avatar.tsx",
+      "wrapped_mock_dek": "nznAinyrcINrol7zdBSwis47HSdRTBBGakv354E3HaU9rvAYU4ad8BFC1GmIgm2QjY5Datkm7NjGRNUe",
+      "mock": "components/ui/Avatar.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Dialog.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "9U1zcLTTXl5Y9ZwfqIJtXAW0Owx5OvzvORowkjp8SJoVRfKvVp56U/W58NPrgx4PsEFrBEABu6vUx3N3",
+      "sha256": "9f7a54f370803901362b4f5300967dbed0eb5a22cc448047f29aa912c3d8fef8",
+      "enc_sha256": "0ced20d4dadc1708b973f09a852c386ba95bc1c110f19473509242eb40248fd4",
+      "module": "components.ui.Dialog.tsx",
+      "wrapped_mock_dek": "Lw3iTQZTG+HCxGsC4Hk5PoAZTJobf3Xr2DQ5BBKrePYSkGSlJc9mOG/1rin0Ijh8Wt7FHvJfGUKmRKov",
+      "mock": "components/ui/Dialog.tsx.mock.ts.nkxc"
+    },
+    "components/ui/EmptyState.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "fIZwP4cN4fbu6cNkf5JUcMsSfRo8GbbcfZxOE6D0BhdJj/3/PnYtNCuvgT1y2hL44E/e5XwMvF04afAe",
+      "sha256": "fb6453057af5eab542ad21e66e13778f1fc77a49dd74d9b3497df1ddcaac0ac3",
+      "enc_sha256": "492ac9a09518ddf63444a4b4561433fd8a79c60b6cddbc48063b11027fe7bef3",
+      "module": "components.ui.EmptyState.tsx",
+      "wrapped_mock_dek": "Pkrlxx+p9RgEHf4QC+nGNO6RB06Ayjj2/DQEJh3rVkJJmTMKduMIztjzKe8sioL6S0nHPYUD616BZzfM",
+      "mock": "components/ui/EmptyState.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Input.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "KHWS19yUlluXTIQFTSuo+FRlX0Ps2cu7K3xwwmbyhQyezxsCR4xElnIuKBcwqxyfC51atxGDJjt0rdmV",
+      "sha256": "a3c9b499f5d951b284ba1c4bc479c1009995fb73ce5fc4e84ddf2ecb2936a010",
+      "enc_sha256": "1b067dcd26db49246084db338e2f6b1003fe9be5c0081f9406f0379b01009122",
+      "module": "components.ui.Input.tsx",
+      "wrapped_mock_dek": "ImHO/MgbbryQqooPzPQ5MMfABUKJjAlKs3/0to4z5/k+OznBdLFUps68VvgoTryDDWJBwC+EZRpizVPj",
+      "mock": "components/ui/Input.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Menu.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "gxfsBfrcQQbJMwtk3m72BwWwVh2PZc5ya2sFNWgCkvEVrxR93azDAZMPcjbjpyB8X8VKNXc/YZ63VP6u",
+      "sha256": "c5c1aaa4187f56496f9c0fc5f7c2a7f0926829ab66982ef248b9e65c46661326",
+      "enc_sha256": "eacdca9b3f63f1cdbdfc79ac9f753d059308fa5e026b6cfede9c625fdf9f76a6",
+      "module": "components.ui.Menu.tsx",
+      "wrapped_mock_dek": "LJ5Ijr/K8vSyoVd9ZeRCWahKUWvh6CclDSBH9IOisdRHKKRDSTi+HIY5BUoOpgxaHEH2QCSLmL30SExE",
+      "mock": "components/ui/Menu.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Pagination.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "0xHBvX8/G3kTMmq+nL3UGJ1ONWSnGjgb3GuAtjsAZBTgFUzwTPKy/As47VWO4+GjOljtyf9+9QpYITgN",
+      "sha256": "38326a92dd3ffc9e6205969e3a35e07951119dff373747668fbdaeb70e5400cb",
+      "enc_sha256": "e104339e1aa3494e810fe5064242bc46d242dc860aa8c4001add71af528fe78c",
+      "module": "components.ui.Pagination.tsx",
+      "wrapped_mock_dek": "2MEHH6ugb4ZwYbwwxyHyDfRRl6i41qJ0JPbLfaJeNuQKvI8re6wsvtKT+DaEL39y4gj+AFgx3FJ5GEwJ",
+      "mock": "components/ui/Pagination.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Select.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "MYaRINT23KkmtAR5og3Nht0DCuNNCGtUwGatLItjdyifO1NBZD5pyzbcydy1muVUicnoLcjYUSqvhVPv",
+      "sha256": "d924b507fc735735138f76006a7ef630d5c9abe44e620888e191b81464986c01",
+      "enc_sha256": "680d97f3d3620dcec49f41f535ec818630f38cf2d8dbb1ea188981fd52ddb3ca",
+      "module": "components.ui.Select.tsx",
+      "wrapped_mock_dek": "LkO3+fuoOK6nTjVZbv1MtV5nZV6kSRRXo/9Cq2r02XzSEZL7gPMj+BDKXZibSNLRQSc0bF64TCvVsxv+",
+      "mock": "components/ui/Select.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Spinner.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "b2Qcn5bwQMB6lMCh2F7xYY5EVUXb5YWJOIOUMs9yMp4TRmjDmFzOUWC70C9A0HPZEyZ4FGHQJrcz9lnl",
+      "sha256": "0b49e42d065375cf5013e2b27c0ea87db64d60a70c86f33253d96016544a30b4",
+      "enc_sha256": "1d09eaa84f70e6589a23d38fa838779e4d9a97cc0e6265ec584b6f0d19d85fac",
+      "module": "components.ui.Spinner.tsx",
+      "wrapped_mock_dek": "vLTUbn9jP5rCoeg7g/TH2VQiKBi5TpbtfX7DYpa3XDK6givdA+7Nv7UtsAlw+4t2DhXliAlDzfcUZyP+",
+      "mock": "components/ui/Spinner.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Table.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "c2S7QgXSdjBvdRFvAc+L1MUkzjUv5+07LdB/hD4d/nVT9/E9xccuFc5CWSLZI+Dw5MP+8tgTlH+sJdfC",
+      "sha256": "cd81c2aacf9a4582cb5f5fa828f6582c61e603420a2ff67b06d0bdd623ef4a9b",
+      "enc_sha256": "f89b2c7b651e16aaa2363589e822f7218df5c829812fd21430ebaa72e0775387",
+      "module": "components.ui.Table.tsx",
+      "wrapped_mock_dek": "xKH4BaHg/IhBqT5FPwwfWUAJp2AdNMG5gHGIb7ksz79WFPUc7QaqVOraBDtu6CuoGLD7oxhukafIqZzu",
+      "mock": "components/ui/Table.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Tabs.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "6gk2pnQSQnZSTvxqXBzuubDvOlFkLx95p8UssVWvwW1avROlMQEhg5ptpAEmx9zevGrQ4+kWWpWoRsr0",
+      "sha256": "315a384ee884a1d3d4cb131d82fb122fe606b84bdf7e64d6758c87fe2681d47a",
+      "enc_sha256": "ea22cb7a049386081e7f96ff9d83db99d2339875f3bd7a6b4b25279c9a79fa47",
+      "module": "components.ui.Tabs.tsx",
+      "wrapped_mock_dek": "RlY3IqQ/qXADFEaGx30F3ujiPryoL68CkLchh+FHX4OdPlzEtrM0yN9Xr6lUIQFK2jpg/w8z/LEmS7Z1",
+      "mock": "components/ui/Tabs.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Toast.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zD3oBT1CP5pVtYEf55aD5zH8kvfRCCLpEKj6Jt6h00uvHYX1Ps7ZmKaCNO66/Y0clK/6PqeheqEVvOTv",
+      "sha256": "b67fc87b51a93d966b0aa19827ac553454d48a447860a8515068a494d5e448d1",
+      "enc_sha256": "dea34f9c4ad7e8dbd3bd4781014e7d29ee58a899689bacf0017edec5d4f497ee",
+      "module": "components.ui.Toast.tsx",
+      "wrapped_mock_dek": "C0K4KrD6j9+2XW7puLeOOleM6XDGuAMI4wSC8t90ZvI4uhUyGOksB1PcNe7r2WhPYk7Gba6OVTgnOScA",
+      "mock": "components/ui/Toast.tsx.mock.ts.nkxc"
+    },
+    "components/ui/Tooltip.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "f7JAmMGMdxYwUnjUlCdWS0qhqZ8DpQi06O/+pT7P2JNHmdgbpePf1nXKVwlRukDExfevnA1p0GPGg/mW",
+      "sha256": "2b09b201348a0af01ec2b9a828820dbcc53823fd8236998ea80a4cb9e1de80d0",
+      "enc_sha256": "a0781bbb631e3cb1a99550fa952f4626558b9ccecd9cf13723b7aa3791b66f1d",
+      "module": "components.ui.Tooltip.tsx",
+      "wrapped_mock_dek": "uvd0g0QF2rgiunJOLVtsML4RWeyoIPkT3ArtgTZbB32XIYOMDhAxeSwggg3NPlqgXM+z9X1DR2hZ592d",
+      "mock": "components/ui/Tooltip.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/CopyBlockDialog.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "E4nZ6QYTIm92NysP6u6yS0yBHL1syqQiucvfBz8NReQK3ymg30Aqpk40yN11ScLEa4ylGeOqoSSDK9VA",
+      "sha256": "f5451a1396ad0abffb5d2e066af3ab4e01d657d944ab66eaa318af0d4449864c",
+      "enc_sha256": "033aa6def123dbb746b93f72dc9b1a02c3fea9a864280800d6a7714e5f67c31a",
+      "module": "components.viewer.CopyBlockDialog.tsx",
+      "wrapped_mock_dek": "MUD0UzUTndFA3FzjgaOsldfCs90TQPhhSSpaQThttIZ3UGfRhGP7PYj3j4QlxvIX7QqANx7LdnWyKGv9",
+      "mock": "components/viewer/CopyBlockDialog.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/CopyBlockList.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "QqGkGvSMW5ewaqmZgIcSTAlHCSg/Z7RLtWxq/NdU1ubeRQvjO9IY6RWLf5dn8smE+lb9RvxT3xazBkVD",
+      "sha256": "5773bda2012224c8415c4224a31c7f5481d2195121b93b5d5e4eb345b261423b",
+      "enc_sha256": "03261c27373d808f66334e321e9c81ba643870d131c21294d26ce60b164e9c3d",
+      "module": "components.viewer.CopyBlockList.tsx",
+      "wrapped_mock_dek": "gBdtrsvpROudQGDXNaCJrKQUPj9Nc2bKrhRy/d7DvsuoDyRX53GRiojt809v0OehRtIagj6lxEKS5gSU",
+      "mock": "components/viewer/CopyBlockList.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/CopyBlockTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "7g7km5zIzKFP8oXz18znyZY6LFOY1lRXzymGSg81u30JbC8VlHlnFfVtAfeBl5iYb7NGPslC1wPRPPHy",
+      "sha256": "29d36da2ac7b0b8dde1f95982362c3127926147a243940ce5d6d9f099aad81c9",
+      "enc_sha256": "17eccadc10384899986a4a1741a2ea8d07d0fa786cfd4d1560b09fc4193d7090",
+      "module": "components.viewer.CopyBlockTable.tsx",
+      "wrapped_mock_dek": "7D6zl2RPrOkcjQ/Lf8tdT6CwPVVl7bt3WjEQUJGNMRB3UfMX4lN9AZeqig3kKq1GvdAMlv8gQoeiW+5M",
+      "mock": "components/viewer/CopyBlockTable.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/PageRangeEmpty.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "QKxEOm9dtLF0ErQNx4HTx1Own3QJi8MY+nzwXhyYgr204gsa6heD34xQuKKxdF9tOdFYNr533G6UBCPD",
+      "sha256": "706e4604c76bb4c5328277faccd77e23e66e6a052801e8855259092f39d0b51a",
+      "enc_sha256": "2e8762e3e4f2ecbc8513183a6aa4a0f532dfa0b7d19d58282605710a32f4bd32",
+      "module": "components.viewer.PageRangeEmpty.tsx",
+      "wrapped_mock_dek": "wCleB8JKdhS+PzzW5DgCHA0bJLNvyguUx7+kx5j9IpYV3XtHz4gWUgVop54tl1U0t/UxcvYEzhfBFY/l",
+      "mock": "components/viewer/PageRangeEmpty.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/PageRangeForm.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "h/dcnm996r9BokJPnFFNOehh4rxl72Owzofpr0E25Ih+Lbx2XT6yHAZsyJXgB1rWr4qRNhqThjiZMCr5",
+      "sha256": "1aca7d5fa7335c5b83dc9811813d5b4d3f2c09922b18e7c29b3f018b71b21272",
+      "enc_sha256": "2528c88e96132cffb163b7fa658be1398365bfa026c2674ca5ab7ca17054b94a",
+      "module": "components.viewer.PageRangeForm.tsx",
+      "wrapped_mock_dek": "9vrKHARQAGAwMpN8bknLeV0blj9tBCfOtfiZWhkQ16MzY7Cf9jYnIGOPrMwhCJ0JXp9O/NlCZPWLpZpy",
+      "mock": "components/viewer/PageRangeForm.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/PageRangeTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "xQwYkz8pNCnXwMC+RLzalNW/62B0kEG4zq6ADAxr7UvNx6L1XbJTg5ONZo1UH872mQbd61ThEybkq2gc",
+      "sha256": "110d7c543a6737b3f14d139475652aeeb55dacb31a17edfd963ecffbee3fc1a3",
+      "enc_sha256": "eb67a96d53d16f4605356287174eeffaad7a2e880e20a02fff8aad851f99db4c",
+      "module": "components.viewer.PageRangeTable.tsx",
+      "wrapped_mock_dek": "FxlXY8cLCawYKGrd12NAXNriptak5FC754pJqUUPXszkWHSDaQKCeaq0gZBH1EhWkUGClWakcvdoKxte",
+      "mock": "components/viewer/PageRangeTable.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/PrintBlockTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "oGSXccHtv9aLNkVFCA5k264MHDRmJPiI4e2DkV/whK5Ubk8plh9fy0BwdZD2auPvHA7nVm61CJeo6Ikp",
+      "sha256": "d03bafa9dd33c4378eeb8179d9434733f10d803356102ec346a2eaebd7a379db",
+      "enc_sha256": "963b086e469485f3775d1f323e3b29090bc35ce98158e8360ec13906b9e7044d",
+      "module": "components.viewer.PrintBlockTable.tsx",
+      "wrapped_mock_dek": "D6dP1YnC7/49lz+065dMMSH8JiFqoXGGVht0cBBMAvkOYu0AE1Pps7jTnusPmVWgMZ5rvrA0lgetgLPz",
+      "mock": "components/viewer/PrintBlockTable.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/ScreenshotHintBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Ce5DSqlq1ulNk6BwJgednyQNAQKmeY7oLs0ycZXPT30G/NGUPQUr8JCodqiwT1F44701K0qt9wH1jCDd",
+      "sha256": "9474c77fb410a1edc5589cf3f848943f7a290890a6444d3c016a49175b001e76",
+      "enc_sha256": "06bd0dd3cd783d48f3b3029738fd35ddb07fd66a21f4aabacd4feb65272b6357",
+      "module": "components.viewer.ScreenshotHintBadge.tsx",
+      "wrapped_mock_dek": "v/EIXwXXIihlxXr+ZePTHskzilIo1cSQQwuv4FBtLSE40NGdQdx6SzxMENvbHf4QehgqCxdimyT2ih9c",
+      "mock": "components/viewer/ScreenshotHintBadge.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/ScreenshotHintCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "lMUaZWht8Ry4giWBKIO9zi0MdqWtf1lZ40sG19eDoMU1hlDwGCNnDCvm1DSx2a/eQbLX5kbyDORyMTuR",
+      "sha256": "90ea9bbdfcb8b1949fdbe6b8debaefe99a6e7ab1174b962a5955278bd532dfa6",
+      "enc_sha256": "a3aa8cdc354b1ff64ff3078907436681dd30c7588e5523a97fed741636a40661",
+      "module": "components.viewer.ScreenshotHintCard.tsx",
+      "wrapped_mock_dek": "ZQyynv3xhWv7yf323JYl3uNwJSPGTY24hwG3nf0ZenmoP68NNBCYWNLBeJPPFLtbjAvDo0ori+6rvqfE",
+      "mock": "components/viewer/ScreenshotHintCard.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/ScreenshotHintDialog.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "qTdTKLJ8vChInnQCLM9XLIkSL5duwzmJLDv8Zi2sYsVk5VqgMJViARHEccHk8p2QuPAUF4Q6eqAMR63U",
+      "sha256": "de6ea17ac88d65548ee726cd180003cf521ce2b57b80e824ca93168530f9235d",
+      "enc_sha256": "1b7214fbfc070df31099c99fc3f121b0b072fa82143d01ac7fc4316a15ea350b",
+      "module": "components.viewer.ScreenshotHintDialog.tsx",
+      "wrapped_mock_dek": "UvcFsexsEUDqAbGAOLnoVBbYdgLUtqtbLGO1zBbYELUou27sFzVb9NMJTfUV0IW2Q2yuJNIHDzuZvD1M",
+      "mock": "components/viewer/ScreenshotHintDialog.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/ScreenshotHintFilters.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "UHQMUpLnJL+F/JOGu6mxdHugp0MR2IV7y6IRSK0U57OpO8aGEkBPLzkTRVS9KE2AGqSHU8xLwWfyAm3X",
+      "sha256": "25f59330f30e0c0e0cbbcafa667086a53e9d1e5fb125a53509e86956276af11a",
+      "enc_sha256": "9ff4a51691abc47d80b6fbb709e1ebf2620ea77000bf958c4b43d7c40d444038",
+      "module": "components.viewer.ScreenshotHintFilters.tsx",
+      "wrapped_mock_dek": "VBmAB8RUPgrRlDWYgAXp8HjFukI6E0hSSW6XV7DtRreSiBpqG0jGUlg31fzrAACnLYD1MwzAy1OGoqbq",
+      "mock": "components/viewer/ScreenshotHintFilters.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SecureViewerBadge.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "9RScmSMlco4BiDCnYOZAWYCnIzrYG0aWu7URDBT93SGipvTEsg2wiCf+y3NCo5qcQ5gZlHFkrVOdhOk4",
+      "sha256": "81a6b4d76c32946294263527352978b9560bcf9f6bea60cd47035abba9fe81ed",
+      "enc_sha256": "54d8ff269ce9c14d0f61f0777ec4da81a438e8885630220ee8155577f1fbc9d3",
+      "module": "components.viewer.SecureViewerBadge.tsx",
+      "wrapped_mock_dek": "BkIhaaM+++jTe8e5mkb3hHCbjjmUbsMmqPrYslmcV9ihX3oV4wZUcyt5dDekN+DOIuxhCpHEYRYYknel",
+      "mock": "components/viewer/SecureViewerBadge.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SecureViewerCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "1sy9A28lVTvQPkhyrTWokH+/oiQLSD5QZvO/YybzO42VafTQ3ztyl+X6qdhO4F3AdMlC1Jt4q5Wk6BjX",
+      "sha256": "2cff8a8282921124085536c574b0ce169ec2d424b08a59dea929f2b24a53b0e5",
+      "enc_sha256": "abd0c82488a6231d3a623a834f67a90aa1c683911991dea497f95b1fa9ca8189",
+      "module": "components.viewer.SecureViewerCard.tsx",
+      "wrapped_mock_dek": "BOMUhr08QtDFOSn7c2oSFxIMO3dlUQqN0t1MbOC12zHWzSg23UJCqToFuas7/3TdjuJk8QHGkL+SsWb9",
+      "mock": "components/viewer/SecureViewerCard.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SecureViewerForm.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Db3YdqCA/uZXBYK56MJoTmkjUPCoMW0AGo6qcqyL/ZB9/h2UHlzsU/v1Dk2focmxkjQqEU5+6uyiOj61",
+      "sha256": "ba6297e9cadfef4ceec419a99f32c101849592901f9b36645d72c75d186ad141",
+      "enc_sha256": "771224239f92797308deedd7481084884587e982040d53391375bf0e4c9c4345",
+      "module": "components.viewer.SecureViewerForm.tsx",
+      "wrapped_mock_dek": "i9s0HWHne6psfAyuQkThQ81rYelwi7+rH3KknLYDa8Vk9wsAbxyFZthQtpm+JTkDsAHz8d2t12Snbgq4",
+      "mock": "components/viewer/SecureViewerForm.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SecureViewerTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "3OHyO3R6L850OR9VWe/0wYJt0HX/awG2k/0xn+HGqTlFvyPGzsm8Xwl8YKRDphLym7o4LZKKUyKzB+Wk",
+      "sha256": "27e91fe35729c87bb59036ffb8d6e9afd5402535235418c229a592ea44b1ff68",
+      "enc_sha256": "f424f74a7cfeea09aa3bca3c7c6f12bb37a9f60cb254977a405158bd351bc092",
+      "module": "components.viewer.SecureViewerTable.tsx",
+      "wrapped_mock_dek": "KKgmOBlYIbKRZsGPs/l9C2+X/DBFYME3zJGSWwtQyz1mAYsHW15XuxoyPYdTxkb5OSjZcW2deWbtS9xH",
+      "mock": "components/viewer/SecureViewerTable.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SheetRangeCard.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "DtH2PUeoxa6T5lWgzBtt1fomlgZLg7XTxTIHtBmbkKPK9jcZ8S0laOpSmAZxNMoXlRcMnUsvK/Yv/j/z",
+      "sha256": "120bac68db3cbaf5551368d8a4efca52e1fd7428b72133346ace8f491d9faacc",
+      "enc_sha256": "506ac403feb37d03125d6cce5861dbe5b2502b3f7d911d7b7280e9eddba23212",
+      "module": "components.viewer.SheetRangeCard.tsx",
+      "wrapped_mock_dek": "J9Z/B19wF3/TodTyd6Lashq7w/CQyPS/3WpLg3w0cEI6lkqkvW6K6EBPQh7TfbcI7eTzn1PpyrflBTcD",
+      "mock": "components/viewer/SheetRangeCard.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SlideRangeFilters.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "syhe3n9J8ZmtKC2xK3S5iPC/tErC30gmNbm9MIW8gg1AvgStPggMnRo9RAKHPXlxOTNmzCBxAYzjISC6",
+      "sha256": "a8a7122f62b2f2be63afaf0dddcc8d95ea8bba3053f84a11e8cc32465937f42a",
+      "enc_sha256": "6c7453da52af87fe8c1932f332468b0beb96322bf67b201da2dfdb06978e7b71",
+      "module": "components.viewer.SlideRangeFilters.tsx",
+      "wrapped_mock_dek": "3tVOPF69Der3oyJwaOi2XJuGG2ccosNIK6B1UElkB3cgRNLJIx6Y0pdJ/CAXBTKTJ9s5+4d+66sdiOoX",
+      "mock": "components/viewer/SlideRangeFilters.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/SlideRangeTable.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "dVFedCFUSbBU/QUtn7/juC0cymmqFtosbaf7yauZDQLb7NeQpTA51LOEshw6W8O9sGsHUmX7mqHyw8+k",
+      "sha256": "25ce6eef9284cb001230f44293a72c091a325a47926859b60669a5a32b6970f7",
+      "enc_sha256": "c17a8ffb33d4fe67fc5dc61434292c3005da4bb86bdc9e740c2e2a6fe03e3c4c",
+      "module": "components.viewer.SlideRangeTable.tsx",
+      "wrapped_mock_dek": "AF1pJ2acLZuqlubCEjeC4o3FI/q4nZ5DYG1JMvH5jHkSuWgWJcZklzABXEIJ8ILQGPzWHWXyU0qbKME7",
+      "mock": "components/viewer/SlideRangeTable.tsx.mock.ts.nkxc"
+    },
+    "components/viewer/WatermarkOverlayDrawer.tsx": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "5AW3v88JMiOuhOQXgmcl6bxVoUCboSSzKdrVNBWRtB7ZlB68ra3B2UeeusQCAlJ2ckpp930ptVnMHKqz",
+      "sha256": "2ecd1f62a618d3a68f39b45861ab82568654b6e1393903d3614ade48caba1556",
+      "enc_sha256": "67808be6545f22aa68b7a028ba61d2245f055bb8f945f9ff6d475a089eab9eaf",
+      "module": "components.viewer.WatermarkOverlayDrawer.tsx",
+      "wrapped_mock_dek": "N1yzyDtv8eTQdH3yWuDLK+rrPKT95vWaTsgHptGgLCjTcMcEO+zp9q7O0Pe6hW97b1OX18jNrNIryXbq",
+      "mock": "components/viewer/WatermarkOverlayDrawer.tsx.mock.ts.nkxc"
+    },
+    "hooks/useBilling.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "vq3aB/meDwLq2WQCG9fsU2IiCB3bE04oxA8QWEqnPaagprdRmqDiHdM+D72D8bVqHPsRN8+FzyQCjK8a",
+      "sha256": "443af68aca77c91e98cfdab55924f58c668fc7f7d8b80e64e80d568c1d251bf8",
+      "enc_sha256": "fdc0453169d1e6a75d51780c99956f01eb623d00e85ea2827c033a09d90a474d",
+      "module": "hooks.useBilling.ts",
+      "wrapped_mock_dek": "voKWwG0Pet9FUUM8UOX3kkU49abgWXAwOGjJ1XeD33nZzW4+n5lJRfbldjNwt03WvJpDvkoI6mghMCip",
+      "mock": "hooks/useBilling.ts.mock.ts.nkxc"
+    },
+    "hooks/useCompliance.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "WAj7dzlrZUsJTEgKxwikWNtjcpAYITQnkuhzJy5kPcPXM+McZqqBeHWbzWACSp14PATlSPTDnyWJigSr",
+      "sha256": "658a02a26098a86ba228404357a3ba53cf9a67a96e0a22b6153234030a10a1af",
+      "enc_sha256": "57030843257a24cf1bed73e3b4cc46df38851ab9876f93612fb515ec674d9fdd",
+      "module": "hooks.useCompliance.ts",
+      "wrapped_mock_dek": "cWekEY7eMSmBMNh4TBPnRf8r/1Bj68nHd4CUuTXJL3POBQtUPcBXOsf/ABrlsANABSd7YOK0fEUeryX+",
+      "mock": "hooks/useCompliance.ts.mock.ts.nkxc"
+    },
+    "hooks/useRooms.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zRZeyzdjvGqiMs29Q6hrNdP9boB/bF44CYkKm9rPx3repQZhDF+U6nuqvc9TddXAUzHwC8TkX3pwffSr",
+      "sha256": "db938fe3434fb4fdc595110330c4ca7f8b6afe208eaf3897159dba2aaf4ea4db",
+      "enc_sha256": "70a291ad9f38bb36bd198a89c211023c8d7a7b814e7538f1d7be5105306e9d4d",
+      "module": "hooks.useRooms.ts",
+      "wrapped_mock_dek": "lqB6ZJlsWUbniZJSBifJ8ZmJYlNFKXKNQ5hwuR/7NvMvC078jgiWwdLg4Slc68ueJ+EtjuhBCHSZxp38",
+      "mock": "hooks/useRooms.ts.mock.ts.nkxc"
+    },
+    "hooks/useSettings.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "B33qJdzZeliJwS/+Y+dONr5SBaPHVRBK27lu0cifJw7avTk9rabSYAPQ23k2r1o04/+l3ZU6gD22u9il",
+      "sha256": "999439091cc80eed4dad1f6b66294e961a910a69bcc1c25e40670f98c07911d8",
+      "enc_sha256": "f610639643996ec145d4e523bd7e6203ad2e3ad63c156375affecca5bcdab4dc",
+      "module": "hooks.useSettings.ts",
+      "wrapped_mock_dek": "nD/qJ6DOdIXzOJCndf/wYR0u7hfDTagywe2551b9kSoOVkg3wEDXek67JPJN97rqGfmFwhFczbG4HNs2",
+      "mock": "hooks/useSettings.ts.mock.ts.nkxc"
+    },
+    "lib/api/analytics.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "SEDMNmDZz6zANmSCSr85a1CuyJds1Fg/TAl8t1HzuhFa7230pCp3ZVA9l4CSfaSVh5aC7q/kodjwBf4p",
+      "sha256": "bcacd566c6cdf71e894a072bf883a451a8a8b50c0bd3d679304a5222b5103a66",
+      "enc_sha256": "2f007e62438ca2d0bd70613f862adbdb82e7909b6865a368a982f5990de3e068",
+      "module": "lib.api.analytics.ts",
+      "wrapped_mock_dek": "hur3Sv58AepBqGRWx+tBOecOYjYMdxpGgijniahhZfOcrBhDGQxTL4TTuSMKxdMjoFJ3ST4e2XxE98uj",
+      "mock": "lib/api/analytics.ts.mock.ts.nkxc"
+    },
+    "lib/api/billing.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "1Aaftwl8QgYHtkqCTQkYBU8pc+id4/E9poQ9tmCh4YDwSu5pm2cp4bLFRYKMBYb8n+UJq2HOhbTRzERX",
+      "sha256": "e5ca12d9ec93e632491cd716a112e7e05b5270333b2da738c46f63744ae61371",
+      "enc_sha256": "fc58211a749129590783a4f47c64ea7ce7e898103b1b93b181da81b00a1a6ed0",
+      "module": "lib.api.billing.ts",
+      "wrapped_mock_dek": "HHZ+RZWvGBgSjOcA1lJeYX2Dy9ZdMWfZUi138ocew4cRVtNjTmWuORZ2X0vAh44zIFG7txI9YBq3YKEi",
+      "mock": "lib/api/billing.ts.mock.ts.nkxc"
+    },
+    "lib/api/compliance.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "U1d6UkCTc5ruaMfazUyBDpAIdWLfX95xo7BQ4EVO0Et47XodRxpKZAgBrq77Ox6P83/iGXmq4jZ+cmjU",
+      "sha256": "340efcc66392a07dd360e5ee4edfe43bbb2b16206298d3d7c5902a077794888f",
+      "enc_sha256": "eb4cfd3bc7da9d989e802091ecdb0af0eb9326d56cc08c371ee039e5980107ec",
+      "module": "lib.api.compliance.ts",
+      "wrapped_mock_dek": "QOVUzVAyQyhdQIWZ2OzRwqxBaCZz/LjmXFhnnLLjeuua00xcHdK8zQsdicc77JQHMtuDETRNskHU5HBw",
+      "mock": "lib/api/compliance.ts.mock.ts.nkxc"
+    },
+    "lib/api/files.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "3xUWQDsDRJL39xeZ3Z20VBdSxZ+I1eDdxhbp672bwxwiYjHHYwG4LDQgXk/ff7+/sLuruR2fb4Ky0gZ+",
+      "sha256": "c260a33a5d1527a81b0d74c45b37e9232d1413a5604a7e1c1d6efc68f0a90966",
+      "enc_sha256": "3078f7597f2d9acc7c1b7c238f6becc6a1b4582c58378b8bd5d29a11da32a9d9",
+      "module": "lib.api.files.ts",
+      "wrapped_mock_dek": "9Iz2Nh9hd5xEswlC/tfdDyr5vXzvGm45ThjFKbr+kd+WmHIIAMAWZ2x4yjumrovYDzjFf9GobH+cMYAy",
+      "mock": "lib/api/files.ts.mock.ts.nkxc"
+    },
+    "lib/api/integrations.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "MWK+uXz5kOLWX64haEyWZVIga6RZzBN80x005qyEwElPDqzGqNRL3pDSgqV5x6KJceVn1VtC2292o2hc",
+      "sha256": "826960da521fecc39a635cdb20a10e10134245a4a870dac9a735107ca088023f",
+      "enc_sha256": "cde4521b6aa3b5c3604bd424c3b4130fabddb19812a5194f21a006581beadcdb",
+      "module": "lib.api.integrations.ts",
+      "wrapped_mock_dek": "f9kUauaZ/6N65clZtQWNLleRlTo8yHPirNKaXXeb/N+6BIxZiGFSYKfsg5NK/EMKdXdfOSe0T+VS+JH9",
+      "mock": "lib/api/integrations.ts.mock.ts.nkxc"
+    },
+    "lib/api/onboarding.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "y5pTpz2CEj6K6YV8YdP4tP+DuGmR8r4TMYfJZ+MbbDs+/s7HJjmP1V79kCmThaFGgAChxFFCDW96/9re",
+      "sha256": "01c755cd55d357d2db779edf0484bcf2dc8acdc30dc740b568a2029e0d3c677a",
+      "enc_sha256": "ebf4ebf9265f78057a37c7f0215d7cc5ca6521ed0a0b3bd8ef7123ae50f352e0",
+      "module": "lib.api.onboarding.ts",
+      "wrapped_mock_dek": "BiG7/DPhJYoEl3jjP+Cn8aj1HbIUpMsIchQcoZEepbBinvPr+qH8wjTsSum0CVcf42EGeS2uCVqRKcxa",
+      "mock": "lib/api/onboarding.ts.mock.ts.nkxc"
+    },
+    "lib/api/rooms.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "uWnxWFFy5CRtj2hSDy4uIKrFuAjQoeEIU4Ffg9FDl5IIyfEasMP352JxrSsLc5Zr6cRKuYqMRmzGwQ/s",
+      "sha256": "50884b25b167da5bcf4a1b9d8dcee349967fa4e3fc7ed197526cecf9cb7f04dc",
+      "enc_sha256": "2bbd879a98fea7feb56dd65008319376a198eda99ee6cfc098b8e2c2a0666354",
+      "module": "lib.api.rooms.ts",
+      "wrapped_mock_dek": "4j+G45cYU4Ry5AM3RpjD9Gi0xMNjRf+VL6VZitvuOOfoguCPxRC+NyjcT142vWw83VbO1EtgSducbk+X",
+      "mock": "lib/api/rooms.ts.mock.ts.nkxc"
+    },
+    "lib/api/settings.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "lrJ2v5AbqCnS6uoEpDG+d7uy4d4zeKtGvaJgobMMQyAclUoRaOhbUuXLAoe9dDgPjSVZSFwU9dbfyRU/",
+      "sha256": "b431521277d91c825a7e8d4417da2c3c8bbf0c59f6cfad6b76fa14af80a12892",
+      "enc_sha256": "a3c2f75aaaa5f5af742d0a9281d4010a1813a1b8d9b6c757c51e4153a155dd46",
+      "module": "lib.api.settings.ts",
+      "wrapped_mock_dek": "IGdw2vgZH7VCefm+eTCAsVvR8RdaTOtoNlsTJi1NRKR7dLSKSeaT35pLvx51FS6dKs3+IABXxEsc64Qz",
+      "mock": "lib/api/settings.ts.mock.ts.nkxc"
+    },
+    "lib/api/shares.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "lnxpBYgM7k3kxYUinrGnueYKHbkc2rn0La2EqGoAyRB8kFW5u0gdSeorM4+0F4Ps6wnLD5FUfPSQfG2U",
+      "sha256": "74ee24c0ffeb7d39188317cea542e4fe61dbcf0047bef7a69ff6e9217ddede7f",
+      "enc_sha256": "3825ca87f96e1e80050c70022fe1b111121cdd810aac879d16ca531009508296",
+      "module": "lib.api.shares.ts",
+      "wrapped_mock_dek": "1WUJkMnIqpWprYk9WrOskSo8/Z2CwTP1V7obE8iqugHJkr3bcsUNOfMvWEdB76C3gV3L1pYz/l7gnNhT",
+      "mock": "lib/api/shares.ts.mock.ts.nkxc"
+    },
+    "lib/api/viewer.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "wbbtl+LyMl1sMxF0qg7NYQg6ZrqZr7yCj6unwNJIoUTfQP9tha2xoaSOmK6MoyvfWg7Nq8qSCC1BnM9p",
+      "sha256": "6dfb5b7423d417d9148d22212727668ec4ffa379a582fd39fb449627b492d138",
+      "enc_sha256": "d43c905924294d4546258c33d98d090753978d8ef59bd1569de6e1684ac20baf",
+      "module": "lib.api.viewer.ts",
+      "wrapped_mock_dek": "AgbaG4T8AvGy0prDPZ7y6CTdcT4/2VEUzlgR6q9eHEYxa0cvl3FNv4LGPxEJg2aiXwF0XyrBTAdjoGdy",
+      "mock": "lib/api/viewer.ts.mock.ts.nkxc"
+    },
+    "lib/queryClient.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "WicHApLKFhln0aKD+fP2XF7Aeb3pV1xUpX4dt9KeSAHv6DERuwkIfsnuFCsQ0dZkxn3XJ17g+YaafDuC",
+      "sha256": "df6cf46316f0e9104dc01fc9d1ca97e83f7f7ad7a402602d84a245dba593a0bf",
+      "enc_sha256": "ce2822614334b98eb9b284d7e54375501528cff9f29539560e75d7591ab8f99b",
+      "module": "lib.queryClient.ts",
+      "wrapped_mock_dek": "nS41olDF3PtA/xKzQXO0vtE+/mWwHKpsLNGOS3ZayNLA/M4R/NNOhzw/7lNdJQqLXnxyliwjxT/l6CbJ",
+      "mock": "lib/queryClient.ts.mock.ts.nkxc"
+    },
+    "middleware.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "bBZfz0bOPRhiYQYy9LJ+w8CPuQslpyhXF5EL2TzrKwp/NS+o7eS6Gt8YZDCLdNKtr3KinMZSZw+GWkmZ",
+      "sha256": "18aee05099e897e700e84e5b2ed3f881df425b87f405d88752a1e8c09135ae2b",
+      "enc_sha256": "0c7f3fbae4edb83673a574c1e7b5e853a4892dd3e9aacfbe4f4570beca78c0c0",
+      "module": "middleware.ts",
+      "wrapped_mock_dek": "DCDDxKw5Jo+3TP/DD/KhnFoaVPvUm/jFBDzSgRj+bbd3YhI9sbmmyFf3uQXoyUMnU9Sf3Xg0+FBuTXvj",
+      "mock": "middleware.ts.mock.ts.nkxc"
+    },
+    "next-env.d.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Br4ur5E5TpPNKxiCZ7odHWEN7gAiyKVaj4IZq2/xJgCoFFDV1H8bSnIiycqd0OqgIEHcKAxp8mr0YWFV",
+      "sha256": "26b6d5c6b935a8a2294ea4ba6d8dbaf7276e5ce08e6751b3c0c56fbbfb9e7f39",
+      "enc_sha256": "a420cc40af835619b7175780718ffd72f6186060f380c792ab6a3b956d9c36f6",
+      "module": "next-env.d.ts",
+      "wrapped_mock_dek": "5ksZcfz6FO2jK+ICFnjY+jaRsi5xyF5MlcJXYhuElEa6eznUpzblET/BPuTDqhiaPjmTDS9efkqMB3qF",
+      "mock": "next-env.d.ts.mock.ts.nkxc"
+    },
+    "next.config.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "2V+iKx1yhVxvGmSVLt5TnVQiLtXsnEp/KPt4ZnGYqf25/YQEx+1HOGaEvZO3rSb71yAayobjx7F/2bUe",
+      "sha256": "ecdc2f122e91c273cfd3dae91a3a2a04298df658d8c85a2d1edd9846c5ca36f7",
+      "enc_sha256": "14d1a080e50c69ef9d84fb1acef90928e63ff97eef652070b4380a81c6ba4515"
+    },
+    "package.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "wzbLWcKtgCWEhNRetwxprNpOdM1kRoTQ1qTBwRa8zWDs7eCYpJAcXzevOlQQA0BSzQElwlIT5VGDFP4u",
+      "sha256": "c5154c01818fee50bca209bbbc8ac720850b81bcfd98cd8daff55218f063a53d",
+      "enc_sha256": "cf5c1f9acf7de6bdeca53095193b343d0ad867d940e4104444032dfe0de60466"
+    },
+    "tests/components/AuditLogTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "h16wjHQ2gKGP9OnEJm/syFixgZMvZVIZTmEeOnEjZ8ujSHOTSWLqoXKNAabUJSSjvBritet+jaaEyFlc",
+      "sha256": "6d56d184ef2e32d683e16802493bbad957bfe4b0159849de48f083501fbe3fb2",
+      "enc_sha256": "85b1594f5dd8bd58805c611863aaf25286d012d3ec4f455949282af3619a56b3"
+    },
+    "tests/components/BoxImportDrawer.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "v1PoMEvSs+zrMe50cZ3I4Lpl+3kpK7KORf8SS/d6qZ7WJPfdmQTAfJrIdE+KCacaFOLIXCpecfwdtO8B",
+      "sha256": "e592ef2c1477066388e5e182b71d45422bf4ee5e389bd32c067be97eb6052e9f",
+      "enc_sha256": "09ab413e858444090a161a23e8500cce0e83288171f2a258e9e50e3e72d47fcf"
+    },
+    "tests/components/CopyBlockTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "UUS9309m+Vg6GmPaw3QWcosGRMek8kn3QnU2QAoqNux00b+0L4XrIZrXT5uevfjYN+IyGzkso43A/wE6",
+      "sha256": "f165318817c62f3e375ef3851c1774cdd1c2ae907460c03525c05829808f35f3",
+      "enc_sha256": "27101e6eb87cd42e2bc22970bade06ee21ef95d9a14dba5206773c4d95ce4f0f"
+    },
+    "tests/components/DataRoomDialog.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Zc6gd5GGyldjWsRxZvDPyCXnPXiSbeCteZqhPDOIjDDgy+Ub8yoV0Y/T4rrlLRJggpXYNoCCVVHAsWbd",
+      "sha256": "13f6e110905277005286d07f108e17ccca03a1999bf9735b9a9a25ecb801088e",
+      "enc_sha256": "1416554b769bbf47bf903af78784a78c70f209a6b1f569abc9d4527a6f4878c7"
+    },
+    "tests/components/DwellTimeFilters.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "QybWuirh6m+w/ii7CfSJ4LOxy5hCpX2PlVt1TfyOOm2E4ZGP9aJurPbb7dMhLAte2GaC1kDTdnzEgXvk",
+      "sha256": "e0a0a14f348f3bde24b8e48c06578f9e46ecfa7a415d8d505882e9bb57a2d9b2",
+      "enc_sha256": "41ef3d68fba1412d7e2209b21de220eef5687e70acde6ddfe0e7395687bd12d1"
+    },
+    "tests/components/EdiscoveryExportList.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "ZnpckZBOkyfYbRxjBvAG3qAwZQi0nBOYELRtg7OE95BMNDB5dY6a9pjDqYIEQZvBne7cWPwgm3ZzFURD",
+      "sha256": "565a50c60ac21c580b925717e7eeda9983ab9d616c8ced9adb98d1647edeeea3",
+      "enc_sha256": "563fd5b4a807d1cd31aba2af94cd008a6d217c6c41d8307686c35dfee1786352"
+    },
+    "tests/components/FileVersionCard.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "SMUEYpx74DfZnOuCigYJEzfOGdoTjaMot9gQtRJy6ISi0SE3vWcmxXKrduacUtB31mp8+WXy0hT+MD9N",
+      "sha256": "0aaa4012bd8c823109a6dc1924de9c6b47d53a9dc5b4b5a2627c0198b2e469c5",
+      "enc_sha256": "bbe084dc1d65b4e43d12e40a67a257575691259d7b0e177df0c76b50f7177d8c"
+    },
+    "tests/components/GoogleDriveTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "ciPuRjCIJHnX5Foa2CdFhqwmvLY1g3UMgZfAwFCJ1+waAsf/7ftJ3Pi/XD9w1P96Hamf1C4/FlR8ZCMa",
+      "sha256": "afc1d2d7459e8a92e9fbf25a02a9da7a268c48715c1a6e0e91a5a55a47186348",
+      "enc_sha256": "4ebf7b720070c6712050304e7e7ad9f2698e92ca17ab31271afb96330c0f38e2"
+    },
+    "tests/components/GooglePhotosList.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Pu35A71DfEwsdBec6ocrCkjJH+qVo3l74QRjVpUbCVkS67BDHhMgCO2j1IzFAIJZPMm6rHXPWRJg3IH2",
+      "sha256": "7a49f91f3c7ddfed658d593ac61073250b17c1620db5649bd484420c05a5e505",
+      "enc_sha256": "f5eeec3c3119e825edb4edcaadc94db76ba2066cef0f5ab61a39a86776c42960"
+    },
+    "tests/components/PageHeatmapTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "bIsF+m7fnTgEBKjzhV0dLgWWuwobTafTauwuvNAnmBVbgmzEjvjAFsyd7apud7IFfI4WY+Hxvj701DVl",
+      "sha256": "e4ca8f4c433730478773da65c3f654402d931cfa84f00420a718ef1df7f29e66",
+      "enc_sha256": "2dbfef0e28097502025eb995b816d6946eedd1b2ab3c309e7df847b6205bae1f"
+    },
+    "tests/components/PageRangeTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "UnVcOozX9klR9IqZgBxWExxDcmpn4N0QeeeiT+uFF9p48lH0qUC/h9U8ZUVd0dBtDwifXR7VMf7otDHU",
+      "sha256": "5a41819f2f2ca501cae61a42b01952e8f05882a0913442572adb4dc6f5fffe2a",
+      "enc_sha256": "61482bbf43c4faf2f7de97374c9cb9695b5759b8dee1e56c91cb2841d9750af5"
+    },
+    "tests/components/PickerTokenCard.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Qd5ExjizyN/Y2PgfXtgWIJwk9Z+0EDTB3ju360qlSjfyzIj9go1l5gSa+nlFZ3fAPSPx/Pggl/4k239G",
+      "sha256": "2b2c914abafba27f6b52c4dc429867187abb85430d093cea8f41cb10680d235a",
+      "enc_sha256": "0578a18718b67cd8a3712e7c7554f1ea8a49c2e7c9df2bc31f61937cdb8e08e8"
+    },
+    "tests/components/PrintBlockTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "dLVclME1s4xJd8mkivORDcP7Vz6xAyt6vNCq09Drcc3VYH/9bZg3V28NWCe/+trboG4eQtD7l4HscPjY",
+      "sha256": "054e4d230a55ec9f1c1df119e6d34f9b7a9bb7de134b96c47b61ec2076ad5c56",
+      "enc_sha256": "77d74ac4526525725b4f7122edde10db34de1da41a95fa34e0ab7c09ff6dcbb7"
+    },
+    "tests/components/SecureViewerCard.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "wrxJblLkNcb+kbIUL1AXcYdXoy8Zty3mfsmd8Q+/el1jqa3vVBAwlEem2tr6P5Rsa96QvByQhJca/jYP",
+      "sha256": "262e4393b9c61d823a7c8959149f9077df3e60d5f37e812cbf20869a227d4108",
+      "enc_sha256": "5527ff174ce23c5e8619577fc86ebc096a2798a2f0e20d5e3e301283e91dccab"
+    },
+    "tests/components/SecureViewerForm.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "73mtS/yqKFpSgQWDCZ5VsOYd7Diq8n78B6GkIP8HLQt5PgQMTRUhxxgWRUtrqIGm3dQHof50sNMQfPTk",
+      "sha256": "b0ebf90685604da41bf2b5bd057916c0bbe6359a7a1a93e0b9e962b214c54db3",
+      "enc_sha256": "d60786aee6b9fefd01aec25cc4935a25ccfba421d2a3d9978c412f44c67f98d9"
+    },
+    "tests/components/SlideRangeTable.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "tpgAz3Lsgs3o1H4oUfTcvsH/XaBqFVh3cv5Hv5YQcN/Y+M3CthcZoELM07lO8exiwJvfws6SVPk61pJF",
+      "sha256": "2748d232318cca4b23e16e4fe38f73867f0ace24bd7ad16da6f30ad07158dd89",
+      "enc_sha256": "a8fa01d155a91d728323c2323f997c611d9aa39a7f3d7d0b79859a5cfc4df367"
+    },
+    "tests/components/ViewerGeoList.test.tsx": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "BmQ9oUg/OM2u5PepxAo1Rd8wtfp2EolSPxil5sNXcj0cFXtYWprCyiQqRrKuG6L0vrTaYY8Nw2jy+GMX",
+      "sha256": "c39e4d11cfc6a28a99703817c7a3c59f0591fe918b1c123b60f01706e00d34f0",
+      "enc_sha256": "aa7fbabe540358560eb0916833d54f600e85cc3b712740dd194837192fb89c2f"
+    },
+    "tsconfig.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "NSJ/ZsKyLB1DWCQdJozr667fSgWgmjc8jveuQwqSCe9lMIX0tHbtfb45SDN9xkOPr6E8iBisgYoxB/e9",
+      "sha256": "19e04b45168f8871f1e7b2665f9b94a4d3b340ee275d9bafdb4e9700134986af",
+      "enc_sha256": "0b421999366848537429fe53a6e37de41c96ff88b92d9ef00bf0f2e92578acb4"
+    }
+  },
+  "key_version": 1
+}

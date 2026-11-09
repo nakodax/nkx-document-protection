@@ -1,0 +1,400 @@
+{
+  "version": 3,
+  "kdf": {
+    "salt": "SqylkYoe55tOjv5zmFdL0Q==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "context": {
+    "build_id": "804be8c2-427f-4d32-bdc3-8d93c29b5882",
+    "runtime_sources": []
+  },
+  "slot_prefix": "apps/extension",
+  "files": {
+    "manifest.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "GJzijuQiHhv6ewkE+mEFpJnW7M5YXTc98NJ7APoIbtLh0JEpzehyIRhQHVsax38PqN87Sz1ABdmE8mPW",
+      "sha256": "184e7bebf10dfde0ca31dcbbf4037fe2b524bc06dacac4ee3c23c386a79b3204",
+      "enc_sha256": "40d76c0dd94fca513a3a663519a0931972b945c067d0570043aafd95f5af62d0",
+      "module": "manifest.ts",
+      "wrapped_mock_dek": "kPXLjrH3qTvuRZzijM64SRzM6rYXXRBeU+8BulCYWmPiCDlPd8H+T68sHWC7jHla7q36z6WACElcG0It",
+      "mock": "manifest.ts.mock.ts.nkxc"
+    },
+    "package.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "F9Iwufj43bCDfI3j7PPOHyttjDxGDWzfwnwwlRmPncVH8af/7JdpqBRYTZDJM1KtaZCi/pQ4/Mskbrk2",
+      "sha256": "9345095181a7180c7296e2fcda6e3bc279ff8f4773d54b2452705b73cc8a1836",
+      "enc_sha256": "0b59c4724afd588a549a1d8c30eb919c9b6b84273688eee217dfad227021f31b"
+    },
+    "panel.html": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "aWFBumWu/cV2akO3Vd0Cy305lKf9THMuCwyfO0lv+7cpj7E/eS1lsBZdITcgs1IB1VO4S0hmXmalyEhZ",
+      "sha256": "29e39f00ec2680d97afab8b70f2980dcb06576e725208fa55867db759980d637",
+      "enc_sha256": "b074457fb36c5bcb6f0e570b34cb1e7895813da7e9e9ff2e0f60b1845c4fb9c5"
+    },
+    "popup.html": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "enF/yiFb290ud3mCpumHawF/0UUGw6XTFWNbpomMCVRxb+JFh7Qmc+LQ5lYBYWFk98f5d00WJoejMEHz",
+      "sha256": "f16e47dd2f2c64506fa88bba37961cb5611abf33f4bd2fc5bee40f68c8347ec0",
+      "enc_sha256": "cd9aec58bdd9fdd59e40cab046b4c347f4cd168a7cc9bf8488892a69e8da0280"
+    },
+    "scripts/zip.mjs": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "cg7UBxMS7rTDA0YX9rP7Z5pC4HHssx9hiRVBTa9gjSN7OhxMZjcGl900dXKBuh2spRdFk9R2ylkTTPBB",
+      "sha256": "b7e4c3f90dc03051d6da8f53ce0a985ba149e7b1d7a866b52ee633394fac933d",
+      "enc_sha256": "a68a4dab735bc1324f0d29c03f9e820befa1f66441096e72b97501ca7e8b59e6"
+    },
+    "src/background/__tests__/authRefresh.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "B5D8lKeXqNqZlLQhN0BvQyPdO6GglcbL9rRN3ikvMJMk64EIly7WE5/W/6s7+c8WmgzYSC4I5D2SlRYv",
+      "sha256": "403f81969e2c78c038617a120b1d09356d5eea17eb4f85f08d72c12f4aefdbb2",
+      "enc_sha256": "c8d6706654544041a4a8f40a9a6d5ecd9ec8bf27bd0a865a194de11d6550460e"
+    },
+    "src/background/__tests__/badgeState.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "p21CxlomPIEAEqVB9VCBZ55FJt5uPbn+bBZ2gLRYuXvcVgR2dihPVTA8qkDekfDAuHzWoQFyj5+99RMg",
+      "sha256": "46df733102fbda672d255e6286fa80feca967da871edab857db47b94cdac1651",
+      "enc_sha256": "597ddbd168497b333f97fc3a6e5419471db9c1afcd52b32e1bab2b6ace041193"
+    },
+    "src/background/__tests__/messageRouter.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "3xWCLLalV4E7YNuKEQfpFPu1204bE3L20xRKV7gotSY1gZ7LzCA1fbTsiklrS0gG4l2+f4GwxsGGguml",
+      "sha256": "2a499bc4285bea9d94fe341f3201d4e2b348ca3462f420ad3c9d29849b075f05",
+      "enc_sha256": "49fbec7eb23c8865385e11faa5635f892d67f16e27e694fd202679e2b0781d83"
+    },
+    "src/background/__tests__/telemetry.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "wVdA4W68aqfFKDBODkvgCiJ/OVoJf0GKTZZGyagHPsSNFyTP1ijrnFrkAQzLRRYfrwZzaLnKuoWM9pYK",
+      "sha256": "59c145eedc4a2644c535d9694694d68de3a193ec747623e6a5301397cb8d10e9",
+      "enc_sha256": "cc9940e74ab76a9e2f72ec6dcdd60e2b8597f5123ac2e0c7533b771b869e4ffd"
+    },
+    "src/background/__tests__/tokenStore.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "OMF0ZwxLUMAVFS/eqmGzVNQedJfm0EmZNvDiqvDIiGYEQBds+C5Bl1av3wwAS8ZuKbDZd1vMY6rGtVGn",
+      "sha256": "7471d331c26cd379b424d399a0075ab1fba017b0793819a5eddfed063729e599",
+      "enc_sha256": "9c294c58c3db2b0287fe38d18ce8494bb09d5c976af885de5a176959b8374edf"
+    },
+    "src/background/authRefresh.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "gtCwI8J3cIvs3iWwlDUDE6oafQCeT8zIQaIFBVpT6uDW3GawBDNg63PT/qj0KpM2/wELwz+lDQXMQvoW",
+      "sha256": "850dac5389d3dfea324322805e804e1806a6465a872188377325c4f1c01feece",
+      "enc_sha256": "e17877b383a8ba4bc606d02c32e6161bbc5925fe2d6b3efad8050448f378debc",
+      "module": "src.background.authRefresh.ts",
+      "wrapped_mock_dek": "VNHcExK6zOTp5BuUFT4uKRtb0yxF3R/UGRmqvjClJx5Ll71geblGz+zaMG8FYSM2grxfCsGjOWYWiTro",
+      "mock": "src/background/authRefresh.ts.mock.ts.nkxc"
+    },
+    "src/background/badgeState.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zINaiXdQVVTpZK5ngja3rWM4H2OxLpt+LaxcgCBTe2W2U+QcUjqnno2hkU2pJ7uFw6W9oWVh2CtH71I/",
+      "sha256": "4601ef7db14ff9d92c006ecd25622acb90ec2deabc0b8598c25f49c31a6ad82d",
+      "enc_sha256": "2c3bf3182f565687b5800c81d0478241a9ef656c3f70385c241c462aac3f6c48",
+      "module": "src.background.badgeState.ts",
+      "wrapped_mock_dek": "K2ZNTIWb+Wr4mRMAOSRTVAurhJPN9SPb/1sTKHLQuwYoxfideDvaRL46K7gWRTInJvXvftOPZcF64ztK",
+      "mock": "src/background/badgeState.ts.mock.ts.nkxc"
+    },
+    "src/background/contextMenu.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "vY0HZcPdkDh2+aHvH7XZMFpb3o7nrG1zcchX+J7upiGkC6NeKkys+wIlle42dAd1BkTpsHRafdfpYT0j",
+      "sha256": "53a3a4671aadcb5c2f56b36f508600b93e27cd3fdcbec90f811afb795ca1fbd7",
+      "enc_sha256": "dff5246389d98eaa27ed7ea5e66c892f3c6d1ee5abc1df0bc46b475b31e3cbf1",
+      "module": "src.background.contextMenu.ts",
+      "wrapped_mock_dek": "TFQOSlSaU7rKdqbua6sageiajtAYOQw4HzW8rU1+XhrR23+vWk42vLaHcRR9krEefh1ReB833P+3lGwL",
+      "mock": "src/background/contextMenu.ts.mock.ts.nkxc"
+    },
+    "src/background/index.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "O8nBHZvO4398ydRcpGmTahTVtBv92KUXuGRwrGvcfIe1CQjn/H30UdPdTuiUAyKabVOSt857cBvL84XA",
+      "sha256": "99d9f0fc51f013384f039b043aeae88885c691a460cf48d933523e503139bd17",
+      "enc_sha256": "99e8c1e862da4ad56012a16d0dc43c3633bf0869e34d84c06251c2ed2ebdc8c9",
+      "module": "src.background.index.ts",
+      "wrapped_mock_dek": "jooioLtIS3LrRqYTED7cGQNcwcXng8sPQKZmJJmG4n0kJaqSNqAQ//ndW+WGaUFhUUH0I/yj3EYA9h2b",
+      "mock": "src/background/index.ts.mock.ts.nkxc"
+    },
+    "src/background/messageRouter.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "At0afuMNcqTH/jaVQR3bl78TRvuj2NUDDzAMwYXAEsQPApZ43ZeKQtGTISsjGdWs0mN+PgFnrc+MKYvs",
+      "sha256": "200b9a5278e947108d8b04ca2a4428d2a54241533142631d9364780c2a28e651",
+      "enc_sha256": "dda5747159093b89cc9e942634fc8f7c3bf77d1afdaec0445b675fc57373fffe",
+      "module": "src.background.messageRouter.ts",
+      "wrapped_mock_dek": "uKjTn2dVMoRJhaROzMo8nMbULTHhCY/TFNteJKcc6gwndzoZ8V9NvTLY15u0QAe2VN94v9m15HnIbWFm",
+      "mock": "src/background/messageRouter.ts.mock.ts.nkxc"
+    },
+    "src/background/telemetry.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "VcZoz7irOutsre8LorULoaD0BhtIRMvjpuNCZOVX+T4f6FYnxlUgq5f726313GHMSQ9saHFVWGpWfa8I",
+      "sha256": "f038011bf15582fcf82f17dfae2d4c44e9da8146120f6422a762b6f29e37e807",
+      "enc_sha256": "a3f48f586c87e3f22acf303dba3d843789e086d9189b6422456feb58ef51d2c9",
+      "module": "src.background.telemetry.ts",
+      "wrapped_mock_dek": "CK34LNC1/b1shNDnJ1xzgvNG7FNGfdlXuN2KxOzoMu611Fad08SZzeStDSiMdkd/g4YusBrwzC2AUjPi",
+      "mock": "src/background/telemetry.ts.mock.ts.nkxc"
+    },
+    "src/background/tokenStore.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "H0c84uPJcQsMhelqRGCYUSKE1u8GPmmo2RAenWb8kc1N1nY+rPWZvotmUwRCUYHgAVndhfK44KwyGj/X",
+      "sha256": "17a8f6e798a8e589b209330bb23e9a13c7b568558098944d1ce2e4d58857f0ea",
+      "enc_sha256": "b570bf8fde4547f82e2fd596bb8d4f12b1f131d61794a6e5f83db1b77cc932c2",
+      "module": "src.background.tokenStore.ts",
+      "wrapped_mock_dek": "cKnfSY73idC9WwuhzITuKMcqs+/pRiCei1A6dhkFgTWMBLbc+kDJffRkkGw9y1NH/2yOYWme30TVilpm",
+      "mock": "src/background/tokenStore.ts.mock.ts.nkxc"
+    },
+    "src/cloud/__tests__/drivePickerBridge.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "RFnYlZdj9NZYPpn1vlAPNlAB9hyx172vPNdIGqeQw10zSZOamRIoyNPgwgGA0t0a8DuUNnbZuaYSHR3R",
+      "sha256": "731c70cd0a85b2db80d6d3ded2940f444901d0ae72e5cf8d57b9f9e9edb0dcde",
+      "enc_sha256": "29010eeece91de772873a2f4e33bb726e9afe57c614ffa3900279d57d3566fa0"
+    },
+    "src/cloud/__tests__/onedrivePicker.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "DZqQ/rvXNnkF8aH7bbQcO+Ki6gM2iHkXerbEom4tQ8nanYICU2lBZFkKbDX9ttDYLBGWB05UkNN/45a+",
+      "sha256": "346212a8eb2ff47c12dd72870e67b580055d66a35b5509f434239940a75cf2a4",
+      "enc_sha256": "fbc9ead23b3a0d6339c42313375c43f55daa62e10072e5ab5e91c00f61b2ede4"
+    },
+    "src/cloud/__tests__/uploadQueue.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "PW3/LTxDVByAIQIbdaoa1JjFf9XkojogWMA7bpaM3QJ8MM/mp1ViR/2Vkag543/YvkhfCGMxJC63WyMf",
+      "sha256": "d2f82a49af01fa1ed4e34d984e6251c29a6ff2ba333636790e3ab3e6767c1799",
+      "enc_sha256": "d31327e29468a72eba6edf1573f6d5bb0e22ed276ef301c272bf7150082c2b62"
+    },
+    "src/cloud/cloudSelection.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "o+SE8iDlznN/QRcetCuWFqSfVxxFeAo7f2Sd+l2g30xrX1i9S602N+a4VyQnXtfaWFx3XOJUIETakqF0",
+      "sha256": "e4bb2a593394b41010648eee98e47ed825eb03af578b1355421f4351eb6497c9",
+      "enc_sha256": "a83439730a305976c7bb29866df623bd22e9caa503eed72108b5a457a264e697",
+      "module": "src.cloud.cloudSelection.ts",
+      "wrapped_mock_dek": "+Jjgzc5EGLKVukOcvgaTZ4qZenCA0Nzfob43sYxeA1GMr4Cny/PqCjfedSiu/uuAroIX2qk3OQmVgAaY",
+      "mock": "src/cloud/cloudSelection.ts.mock.ts.nkxc"
+    },
+    "src/cloud/drivePickerBridge.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "hYRIkRaZMx/fcQTI6dUXkDdAhsvAVecIhXRomERCN5n8Ec+t/nk0H0bWpb+7x3h8Y9Aq3wEYQKsubthX",
+      "sha256": "365353e374b29a4b86ef337b271591fe1221d45baff9fa1ec08d5b26c8abc7a4",
+      "enc_sha256": "5f9e85d353f7e8817a81d35fae8f4b2a68a180ddaae4fa270d5f7dc9dad781b4",
+      "module": "src.cloud.drivePickerBridge.ts",
+      "wrapped_mock_dek": "dvYb5/4mLhYog2G6An5nQmvSvFzBF8UvockBxsz2tIl1RlLzm+/8O9aCFcALtVpQQAg7e7NHA/XnVAMt",
+      "mock": "src/cloud/drivePickerBridge.ts.mock.ts.nkxc"
+    },
+    "src/cloud/dropboxChooser.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "ViSHE38P9zCNcBx9UcWi+X29Keuszf92neMPdaDPC7HAde4MhaHWgw7ScqZ94JFgwDx3+rLP7P68Qecs",
+      "sha256": "e6884475f49c3e0202a9ac16f98026c1e0f53ea91d8b73d106246706fae536d6",
+      "enc_sha256": "d630c4bc030746564b525d13a0921755d207aa6323e289b6ef7a93d6f10dbe41",
+      "module": "src.cloud.dropboxChooser.ts",
+      "wrapped_mock_dek": "ZY1iKCkxs/ezLWktXY8cq8SjxrCmA6QCRE1anW9RKQ+x+qVQb83V7TsMjljVvhrCrDGExC9BKGH7b7K2",
+      "mock": "src/cloud/dropboxChooser.ts.mock.ts.nkxc"
+    },
+    "src/cloud/onedrivePicker.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "JOjxmOvGwax8gFJL8ZQi92VBSIfepr6KXODsyjPJ/7tpWB0UH+nSrhadKd9F46Sa59fceql+0Qs/f/AR",
+      "sha256": "e78dea4e7e8cc3bce622e80760015540d2005564b3335a670883f2eb2d04477a",
+      "enc_sha256": "a21900607ca90eaeac797be66f1d3d0b0919030e18120afa079cce10629da707",
+      "module": "src.cloud.onedrivePicker.ts",
+      "wrapped_mock_dek": "FBJciwsCdh3uoDUZGkWcjizPudHcl3PVtfXm7lDT2MwI1dW/hrrZMsbFRb5ak0myLhdIqzX0TFPcyGzd",
+      "mock": "src/cloud/onedrivePicker.ts.mock.ts.nkxc"
+    },
+    "src/cloud/uploadQueue.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "M7EhZe2ZJyxEDyURTIF+6h0b8DYx2e0sg7BbWvv2wJ01/ZStZhCjjz2sW2JxD4Ab/hmivhFYpmvE86s4",
+      "sha256": "eea09a4ca92797f1bfabc8b1b035ed50d254b44250fd498910cc0a087bda2e3a",
+      "enc_sha256": "a1881e477233488c02b1f255dbf367ff3bdc29e0ade95024471f667070e40619",
+      "module": "src.cloud.uploadQueue.ts",
+      "wrapped_mock_dek": "ZadNlLWfoUnXnHYuH45AmDvwdivq5B9tnX9ZLtseuiaMaDGMx78CY58Vm2GvBhx/vbXMU+Ctf07H+3qR",
+      "mock": "src/cloud/uploadQueue.ts.mock.ts.nkxc"
+    },
+    "src/mail/__tests__/attachmentScan.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "ln/WI1CFCk4MOgh9p3qzOq2EL5hdaWer6AMQjePudAaQB/TkL0oO9/jp9lHeSjsDyXwutWO7OD957MMq",
+      "sha256": "d7b508d894ffbacfb9eeed668c250774833b15b4c80e49a6af39408fcfc43124",
+      "enc_sha256": "24c7837528048de8d69505f762bc70562962c8cb7b6da299e87bf1790fa0ce0b"
+    },
+    "src/mail/__tests__/gmailCompose.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "gcE9992cfBHyVpqUd4RMDK5MuI9p8FgDfGn4OvaVU4FT9m0awJ1uov85YH/IlXVsUdPcCrVt1jjmqz2F",
+      "sha256": "8a2b4ef85ade73604a5b4f2f891219becd382012745e15575a1d58a3c080ad11",
+      "enc_sha256": "bf7a7bab0c69ec050485a3deeaebe06ed2b8f688498851800c8c67fec7ace4e1"
+    },
+    "src/mail/__tests__/outlookCompose.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "YAxUuDyHifonS7gK0nXmYHGoCbngShhVdD92tZgRWBxg597Gnge4KfJP/YTbldMfCLZvIiBmNj4xu7Dq",
+      "sha256": "b1fa14732264250e562b76f102d1b99733a832171ca2a3e98603ec9893d4dc08",
+      "enc_sha256": "fd17cb043553cfebba3266e53f48b27b2b583655abe1c35d6d52873095f0280a"
+    },
+    "src/mail/attachmentScan.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "/Cmg73983jr2tcJoojpWOjb6ywO3lQabQwTIR9TsI7IXtPePuGi0PyC/wepXB34ah/cMO7h4gOQXV50E",
+      "sha256": "797403e52e196ee96973b7c358be19ed1c5c5b8ba35c09483052c08083b8d4c4",
+      "enc_sha256": "a23f23fce8530fd9b010a0c6acb91d7252eb39fc06aafb19a9bdc6d116bac16b",
+      "module": "src.mail.attachmentScan.ts",
+      "wrapped_mock_dek": "9NFXrao3IOKoxlISMKgXzIM144hX6PZeOvNqVNbzqAZU3h7ZG/4VNAcIJ+RmyIdlHGnWrEmSmflwq2ds",
+      "mock": "src/mail/attachmentScan.ts.mock.ts.nkxc"
+    },
+    "src/mail/gmailCompose.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "UvenkLlRWF10aQdaJWs3h69CF81X/QYU6JIaAzEFQ7kK2H+Ijsp0ExTddVltJ9X+HV+LFaNDN68DoMjj",
+      "sha256": "18efe479f0c365f4e39af72ff559dac647a834d18b9df14cdb996cfabce48098",
+      "enc_sha256": "00729a0a4d45e81dfc9b66e226b6e33f110e9f976c43c6caa3de178338874c34",
+      "module": "src.mail.gmailCompose.ts",
+      "wrapped_mock_dek": "3GrajmI0KaYz8Ei1N8SMLdeWn0WwUoEtBjoESwM95YdeoZsuYiNXCF8zRUv0lyT98MW3gCYFyIKFGRXv",
+      "mock": "src/mail/gmailCompose.ts.mock.ts.nkxc"
+    },
+    "src/mail/linkInsert.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "MiMo7ke1vTsg4Xkda97JpeE51+pBb2D/j4wPWYOLeRcmrH7IVXWaK1KlYA3t7f8z9G5vGnM+OEh6OBrQ",
+      "sha256": "4d4471bac4f4879ffc7824be452c9899fd1144de84ed00e019eefc54f18f880d",
+      "enc_sha256": "d1a984186742f3440a27dc0a99496386dda9bda17642c4c218bba342fd2d8150",
+      "module": "src.mail.linkInsert.ts",
+      "wrapped_mock_dek": "QqaNCVN7UURkE6JjAIKHSQMP14rA8PoKemo5XfydT8cWLf1HmBC4AJ6KE3gm7Wd3Pe1edo+Z8NCOFZVW",
+      "mock": "src/mail/linkInsert.ts.mock.ts.nkxc"
+    },
+    "src/mail/outlookCompose.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "oqReyvoW8/WVrL10CiB3wK+MVOvT85gtgrnwpC5Bdy121+uKsXuQGToSLQsOqRts/MheFYrl4bCCe1h2",
+      "sha256": "3c906219f3aa651299861b7a6ed575f62aa17b7473374c8be6357885dd6aab05",
+      "enc_sha256": "df5079b2e06247fa845a948f4fcba3dd2659ff192d558d562243c7a4d17edac9",
+      "module": "src.mail.outlookCompose.ts",
+      "wrapped_mock_dek": "V9KIzq1q1+iRGhVtZ369wOR8ORHfcphjUWUEikte8oUnkGKbkswFylAx+NxxtqLYDFF51bd/AoCpUqcF",
+      "mock": "src/mail/outlookCompose.ts.mock.ts.nkxc"
+    },
+    "src/mail/sendGuard.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Pxme30otULaeuSbpwIWM+geW8slsjkln6gQHzIJzvs6hPN6fcpsFDQZFU8kewFObf0msoMePtQQ940t+",
+      "sha256": "f5898b220772de0e3386f9f7ef00aaccab56a2f3bdc788af273049eec5106f18",
+      "enc_sha256": "86f774a2941d798adea991492c40d18ffdd31aac3a755472d466c2614aa0bb8a",
+      "module": "src.mail.sendGuard.ts",
+      "wrapped_mock_dek": "bHmfthjgZtGF3sFrGW0vXz6oZ8f9TufDoo67fqqu3PGKISz64dvVYHces1E9wG0KP5SpsotK8FMXFOEE",
+      "mock": "src/mail/sendGuard.ts.mock.ts.nkxc"
+    },
+    "src/panel/__tests__/expiryPicker.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "5lblW/jLG8R+pNJ5ZX8gD52tWbItkiI2awl6hrJSyyYaEpTd/7z0maSsPA7kCyKTQHOmVs7Bn35yS+tn",
+      "sha256": "c27cf7dd0a3ae6a13ffa521096596bb7e70ae4c695c24c3165463c8f78d8eae2",
+      "enc_sha256": "cf72b6ed79eeb438f78ff18dfcfc6fe48e6318272601734973e9d0abbbda7e68"
+    },
+    "src/panel/__tests__/panelView.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "93WBjrrM5/BaQRUrbMV0QNiln7h8v+xKKh0pDGS3eycklJ2XVk1IG6uwV2XeDpy+jzkOrraK0f7eJl7G",
+      "sha256": "551790ffc5b0d815c86aba91dd7f44048cde01b0a2a8db26bc4a50b7be0427dc",
+      "enc_sha256": "11283fbfa0eef8a6ef4a7dc76b967e1725c285842afaf634424aad22f1f9aa13"
+    },
+    "src/panel/expiryPicker.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "XwcK+SbTZw7bH5pU6UM0ByISsgK0DKD+qiTg+ys+/AF0D4ygl30JS0YATpMBqvog5weq4yw0eaTfZ8WJ",
+      "sha256": "2880b203d002eb8a98f1ce72acae2bb146db0f8cac6659e15806ba64d1ba3a92",
+      "enc_sha256": "330b78c8a87c51f3dab63d1e4a60c8ba6ed6563e5b16b47827a8dfc567844789",
+      "module": "src.panel.expiryPicker.ts",
+      "wrapped_mock_dek": "iBk51Ivf+TdZuf1d2F6m3F9pQWu/NI7HkAbR5hlBIkzTp2oQdlSidkjnLG9oIhUzVlxPhScOjo44unlA",
+      "mock": "src/panel/expiryPicker.ts.mock.ts.nkxc"
+    },
+    "src/panel/panelView.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Yaw5q2U48AqrFenHl3dzO4AAzZwLI89iEoTgp7NQ3/mVOx6w8A9opMnHmlXXCbXQAxEC8BOj1YET1zOr",
+      "sha256": "6aa50be41f4eca9709ad550f880400f681ddc29f71a54a39269d8d631961ac57",
+      "enc_sha256": "d90c8e73a2fc0642ab24e900fe350fa354b124d1ecd48b017903fe742b054efa",
+      "module": "src.panel.panelView.ts",
+      "wrapped_mock_dek": "EaHx+T7zw65XKFiBJOreaZyDd7k5udi/tzRNJvf7t0J7FvfIpV42Q0GzAfJil/o0wdrrVI8NLTfNkdkM",
+      "mock": "src/panel/panelView.ts.mock.ts.nkxc"
+    },
+    "src/panel/recipientList.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "0uHcURUfuOjP6005FYQKtRQQWMudDuGi0WmZZygjwkt6sgWgCBGdBn37QP0R2kC8r020qkY8lsGtobBE",
+      "sha256": "b8b6c73b6c4ebd077ea711204502ed1d7837225a58a8af26c408c8be2ded8a45",
+      "enc_sha256": "681bb0b4116d089c3402f7c7f66ba413aacbd143cdedfeb8fa525895401a670e",
+      "module": "src.panel.recipientList.ts",
+      "wrapped_mock_dek": "fol7aH0NDGuLZ1GHABAi/hkA1VZt0LJKNZZX+JpfLTjMySNb5TuU7h6ZANJBSEGotbUgx+awGWMkRZYw",
+      "mock": "src/panel/recipientList.ts.mock.ts.nkxc"
+    },
+    "src/panel/shareSettings.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "1fpyMSNnx/+pxJICpZlpFQjz8wN/bVymu/ULdFoCkgr0o3abYhD+FznDP8x0Jy6CvCcflXIwFSPMerY7",
+      "sha256": "ea31a94ba1ab60f97d9fb0fc08b209ec62df0e96f9d9bc97c6405d936143765a",
+      "enc_sha256": "0c092f7cf8ad0b4bccb96ece7813941d13177d2eb281a9db0b0e0298fdb5bfaf",
+      "module": "src.panel.shareSettings.ts",
+      "wrapped_mock_dek": "vvyDjAr3rGAAHbZsa51tm2QJbn+CQT2bBauoNhMGPkDvbD2AQoHe1MZh8EXNNy0OYmpbyq6/Lh01mEXt",
+      "mock": "src/panel/shareSettings.ts.mock.ts.nkxc"
+    },
+    "src/popup/__tests__/recentShares.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "JAKIQLEQ6kwp5KguoQNt4HP9ufxaMuf2pPAZaFW41dI9E/NwMNb9GZvkvvO+cgJyodI7qtwpTouaYQnQ",
+      "sha256": "e24f69561866a4df2dbce704854f16fc66a3887da5251266d1ebde841d24f4b7",
+      "enc_sha256": "fc8ac95ff70c99f645884a6e18d974f1accfc392a311459c63b15d3d2515d022"
+    },
+    "src/popup/quickRevoke.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "oXDlBas5DkGKVzLzwDudlmGD9CwYw/aakmWk/cV+vunkS/P1TzOYRfIddhVmRnqm6dCqyGBAcsN9bAc8",
+      "sha256": "2ba85757a2d38155fd83027b3acd853de52fa3e3fb16d262bc8f442cb09e7290",
+      "enc_sha256": "e2e36a352159c00d3a03bc8588ad37d8fa958cf28932c0faff98cb348cbceaac",
+      "module": "src.popup.quickRevoke.ts",
+      "wrapped_mock_dek": "tGqdQJky4haPk1d4I0L40csAR20V2K+qo9jEGSiE7ap0awJPc6yp/si6NcD86o/i2UdiFGK28uJ+f1Rk",
+      "mock": "src/popup/quickRevoke.ts.mock.ts.nkxc"
+    },
+    "src/popup/recentShares.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "6dOYT5YSg77jZkdbxGTzA0YXt3BG+nH2nGnVDA4rT5tufNt+E5cHojliRG7mzyy64j6Qp5BGc8CBsBcF",
+      "sha256": "c54a7542e3f8a7b8fdde684a49cadf5bd47972f787826ac52abf78e9ecc90f0e",
+      "enc_sha256": "93152a59c5b49eccfe113b99cbfc798c3860519fd8d94450ab9f8bf7267bc71e",
+      "module": "src.popup.recentShares.ts",
+      "wrapped_mock_dek": "WoMnLh8ezPQ8uysvtGnYkLg6W90itwAxP18od0OIm70+eI0ADLwExzg3zutlr5LHefx4rxUQdmzO2cq4",
+      "mock": "src/popup/recentShares.ts.mock.ts.nkxc"
+    },
+    "src/popup/sharePopup.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "8OEhk3rCxV2TjwL49LUnwyms+A2JFUutl2dCzaOwjyGIGRBx1l3cMrPNpbZw3lk9uDq77fKjOgzYIQ84",
+      "sha256": "e5182e4a6d4deb7891a7169a87eac7589d7781feafdeb4b06b6eeba0240a50a1",
+      "enc_sha256": "0d9b8dc279eda962fc93b02be7131ec46ebf3220f77ac53894db91fed0f0e846",
+      "module": "src.popup.sharePopup.ts",
+      "wrapped_mock_dek": "zoifGD1tZgc+X/qxb7TqQJWOjBq9f7Mg1BzNcT84gzl5/C/P2lGfqH2TBc/b11PfHCnjl52JN5RjCdLG",
+      "mock": "src/popup/sharePopup.ts.mock.ts.nkxc"
+    },
+    "vite.config.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "aW6wLm7aV24VNcWN3VmpE+yiocsm7tPVyieBFVeyxGxqd1Wry1A3Ykbno4z3PZooDAPtcnh2PAT/5+Wd",
+      "sha256": "90ef7be4be8527c0ddfdf1a163169e9b4ebb72d193845ad9a4d44105cd60ad41",
+      "enc_sha256": "153bd9d890b93ec2bddcf47d2765c9dded6584c5a4ebe827dcaa4c6d0339f5b0"
+    }
+  },
+  "key_version": 1
+}
